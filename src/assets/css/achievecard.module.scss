@@ -1,0 +1,218 @@
+// card 卡片样式
+$border-radius: 15px; 
+:global {
+  .card_container {
+    box-shadow: 0 1px 8px rgba(10, 16, 20, 0.24), 0 0 8px rgba(10, 16, 20, 0.12);
+    border-radius: $border-radius;
+    margin: 0 auto 20px;
+    font-size: 12px;
+    .ant-card-body {
+      padding: 0;
+      .allTime {
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        font-size: 1.9rem;
+        font-weight: bolder;
+        color: #8ba182;
+      }
+      .relation {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        font-size: 1.6rem;
+        font-weight: bolder;
+        color: #c55367;
+        span {
+          color: #ffffff;
+        }
+      }
+      h3 {
+        font-weight: bold;
+        line-height: 2.5rem;
+        margin-bottom: 0;
+      }
+      // 成就用戶信息卡片
+      .usercard {
+      }
+      // 成就用戶成就图表卡片
+      .abilitycard {
+        h3 {
+          margin: 0.5rem 0;
+          color: #eeb554;
+          font-size: 1.2rem;
+        }
+      }
+      // 成就用戶亲子关系卡片
+      .numbercard {
+        h3 {
+          color: #c55367;
+          font-size: 0.97rem;
+        }
+        p {
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+      // 成就用戶观看时长卡片
+      .timecard {
+        h3 {
+          color: #92b883;
+          font-size: 0.97rem;
+        }
+        p {
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  // 成就用戶观看时长文字提示
+  .tooltip {
+    max-width: 355px;
+    .ant-tooltip-arrow {
+      border-bottom-color: #ffffff;
+    }
+    .ant-tooltip-inner {
+      background: #ffffff;
+      color: #63ab3f;
+    }
+  }
+}
+
+.user {
+  width: 100%;
+  height: 155px;
+  text-align: center;
+  line-height: 155px;
+  border-radius: 15px 15px 0 0;
+  background:url('../image/achieve1.png') no-repeat center center/100% 100%;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .usermain {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    .userimg {
+      width: 80%;
+      position: relative;
+      .img {
+        border:.5em solid #ffffff;
+        border-radius: 50%;
+        height: 10em;
+        width:10em;
+      }
+      @media (max-width:576px) {
+        .img {
+          height: 10em;
+          width:10em;
+        }
+      }
+    }
+
+    .Identity {
+      position: absolute;
+      top:20%;
+      right: -34%;
+      width: 40%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .Circle {
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          border-radius: 50%;
+        }
+      }
+      .word {
+        background: #3a75c2;
+        color:#fff;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  @media (max-width:576px) {
+    .usermain {
+      width: 50%;
+    }
+  }
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  // border-radius: 50%;
+  cursor: pointer;
+}
+
+// 雷達圖
+.ability {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  filter: grayscale(100%); 
+  width: 100%;
+  // height: 200px;
+  padding: 10px;
+  background: url("../image/achieve2.png") no-repeat;
+  background-size: 100% 100%;
+  border-radius: 15px 15px 0 0;
+}
+// 親子關係
+.number {
+  width: 100%;
+  padding: 10px;
+  height: 235px;
+  background: url("../image/achieve3.png") no-repeat;
+  background-size: 100% 100%;
+  // border-radius: $border-radius;
+  border-radius: $border-radius;
+  background-size: cover;
+  background-position: center 24%;
+  .btn_container{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    .ant-radio-button-wrapper:not(:first-child)::before{
+      display: none;
+    }
+    .btn_week{
+      background: #f15685;
+      border-color: #f15685;
+    }
+    .btn_week:hover{
+      background: #f15685;
+      border-color: #f15685;
+    }
+    
+  }
+}
+// 今日使用時間
+.time {
+  width: 100%;
+  min-height: 235px;
+  padding: 14px 10px;
+  background: url("../image/logintime.png") no-repeat;
+  background-size: 100% 100%;
+  border-radius: $border-radius;
+}
+.TooltipBtn {
+  width: 30px;
+  position: absolute;
+  height: 30px;
+  border-radius: 30px;
+  padding: 0;
+  top: 10px;
+  right: 10px;
+}

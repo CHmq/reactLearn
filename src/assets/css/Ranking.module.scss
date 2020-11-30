@@ -1,0 +1,127 @@
+$white:#ffffff;
+$grey:#e8e8e8;
+$boxShadow: 2px 3px 5px #d4d4d4;
+.rankWarp {
+  .cWhite {
+    color: $white
+  }
+  .bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 24%;
+  }
+  .container {
+    box-shadow: 0 1px 8px rgba(10, 16, 20, 0.2);
+    border-radius: 25px;
+    // 标题
+    .title {
+      min-height: 4.5rem;
+      border-radius: .9375rem .9375rem 0 0;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      flex-wrap:wrap;
+      .word {
+        text-align: center;
+        transform:translate(0,1.2rem);
+        line-height: 1rem;
+        font-size: 2.1875rem;
+      }
+      .ruler {
+        display: flex;
+        justify-content:flex-end;
+        box-sizing: border-box;
+      }
+      .ruler>div {
+        color: #f99600;
+        background: $white;
+        padding:2px 10px;
+        font-size: 10px;
+        border-radius: 10px;
+      }
+    }
+    // 前三名
+    .Rankwarp {
+      height: 260px;
+      padding-bottom: .4rem;
+      .warp {
+        display: flex;
+        .Podium {
+          flex:1;
+          padding: 0 10px;
+          box-sizing: border-box;
+          // background: rebeccapurple;
+          margin: 1px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          flex-wrap:wrap;
+          .one {
+            height: 120px;
+            background: url('../image/rankb1.png') no-repeat center center/ 100% 100%;
+          }
+          .two {
+            height: 80px;
+            background: url('../image/rankb2.png') no-repeat center center/ 100% 100%
+          }
+          .third {
+            height: 60px;
+            background: url('../image/rankb3.png') no-repeat center center/ 100% 100%
+          }
+          .avatar {
+            background-color: $white;
+            width: 80%;
+            height: auto;
+            //  translate(100px,20px)
+            border:5px solid $white;
+            box-shadow: $boxShadow;
+            transform:translate(10%,calc(-100%));
+          }
+        }
+
+      }
+    }
+
+    .itemwarp {
+      padding: 5px;
+      .sort {
+        height: 100%;
+        text-align: center;
+        font-size: 1.25rem
+      }
+      .main {
+        box-sizing: border-box;
+        border-left: 2px solid $white;
+        padding:.3125rem 0  .3125rem 60px;
+        display: flex;
+        align-items: center;
+        .avatarwarp {
+          border:2px solid $white;
+          width: 40px;
+          height: auto;
+          box-shadow: $boxShadow;
+          // padding: 10px;
+        }
+      }
+      .item {
+        padding: 0;
+        background-color: $grey;
+      }
+      .number {
+        padding-left: 1.8rem;
+        background: url('../image/rankm.png') no-repeat center left / 1.3rem
+      }
+      @media (max-width: 768px) {
+        .main {
+          padding: 10px 0 10px 10px;
+        }
+      }
+
+    }
+    .itemwarp:nth-child(-n+3) {
+      .item {
+        background-color: #ffeedb
+      }
+    }
+  }
+}

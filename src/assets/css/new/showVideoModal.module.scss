@@ -1,0 +1,51 @@
+.wrap {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  .inner {
+    margin: 24px 0;
+    width: 100%;
+    padding: 20px 0;
+    white-space: nowrap;
+    overflow-x: scroll;
+    .imgWrap {
+      display: inline-block;
+      padding: 0 15px;
+      .arrow {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid #ccc;
+        margin: 0 auto 10px;
+      }
+      .arrowRed {
+        border-top: 20px solid #ff5287;
+      }
+      .arrowMove {
+        animation: action .5s infinite  alternate;
+      }
+      >img {
+        width: 125px;
+        height: 125px;
+        object-fit: contain;
+      }
+      @media (max-width:576px) {
+        >img {
+          height: 80px;
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}

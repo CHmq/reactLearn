@@ -1,0 +1,29 @@
+// comment 评论组件样式
+.comment {
+  box-shadow: 0 1px 8px rgba(10, 16, 20, 0.24), 0 0 8px rgba(10, 16, 20, 0.12);
+  border-radius: 15px;
+  margin: 0 auto 20px;
+}
+:global {
+  .ant-comment-nested {
+    margin: 0 0 5px 0;
+    text-align: left;
+  }
+  .ant-comment-inner {
+    padding-bottom: 0;
+  }
+}
+
+/* 设置滚动条的样式 */
+.demo_infinite_container::-webkit-scrollbar {
+  width: 6px;
+}
+/* 滚动槽 */
+.demo_infinite_container::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/* 滚动条滑块 */
+.demo_infinite_container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}

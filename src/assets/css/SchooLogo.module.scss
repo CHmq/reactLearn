@@ -1,0 +1,27 @@
+.logowarp {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.none {
+  display: none;
+}
+.borderbox {
+  position: relative;
+  height: 100px;
+  .borderwarp {
+    position: absolute;
+    bottom: -15px;
+    width: 1px;
+    height: 120px;
+    background: url('../image/logo_s_border.png') no-repeat center center/100% 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .borderbox {
+    height: 0;
+  }
+}

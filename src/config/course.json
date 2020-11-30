@@ -1,0 +1,381 @@
+{
+  "RESOURCE": [
+    "jttw,jttw360,learn,news,science,treehouse,storybook_video,song_english,song_zh,happy_book"
+  ],
+  "RESOURCE_ICON": "audio,document,download,img_cartoon,img_line_graph,img_real,jttw360,learn,news,science,song_english,song_zh,treehouse,video,storybook_video,teach_guide",
+  "SUPPORT_SCHOOL": ["233", "262", "302", "13965710", "25536021", "98069202"],
+  "EVI_COURSE_TAG": [
+    {
+      "label": {
+        "zh": "語文",
+        "english": "Language",
+        "cn": "语文"
+      },
+      "value": "語文",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "文字變變變",
+        "english": "Story of Character",
+        "cn": "文字变变变"
+      },
+      "value": "文字變變變",
+      "is_select": false
+    }
+  ],
+  "IMAGE_CATEGORY": [
+    {
+      "label": {
+        "zh": "食物",
+        "english": "Food",
+        "cn": "食物"
+      },
+      "value": "食物",
+      "is_select": false,
+      "sub_cat": [
+        {
+          "label": {
+            "zh": "水果",
+            "english": "Fruits",
+            "cn": "水果"
+          },
+          "value": "水果",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "蔬菜",
+            "english": "Vegetables",
+            "cn": "蔬菜"
+          },
+          "value": "蔬菜",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "肉",
+            "english": "Meat",
+            "cn": "肉"
+          },
+          "value": "肉",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "穀物",
+            "english": "Whole Grains",
+            "cn": "谷物"
+          },
+          "value": "穀物",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "奶品",
+            "english": "Diary Products",
+            "cn": "奶品"
+          },
+          "value": "奶品",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "調味料",
+            "english": "Condiments",
+            "cn": "调味料"
+          },
+          "value": "調味料",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "零食",
+            "english": "Snacks",
+            "cn": "零食"
+          },
+          "value": "零食",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "豆",
+            "english": "Beans",
+            "cn": "豆类"
+          },
+          "value": "豆",
+          "is_select": false
+        }
+      ]
+    },
+    {
+      "label": {
+        "zh": "動物",
+        "english": "Animals",
+        "cn": "动物"
+      },
+      "value": "動物",
+      "is_select": false,
+      "sub_cat": [
+        {
+          "label": {
+            "zh": "海洋動物",
+            "english": "Marine Life",
+            "cn": "海洋动物"
+          },
+          "value": "海洋動物",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "野生動物",
+            "english": "Wild Animals",
+            "cn": "野生动物"
+          },
+          "value": "野生動物",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "農場動物",
+            "english": "Farm Animals",
+            "cn": "农场动物"
+          },
+          "value": "農場動物",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "寵物",
+            "english": "Pets",
+            "cn": "宠物"
+          },
+          "value": "寵物",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "鳥類",
+            "english": "Birds",
+            "cn": "鸟类"
+          },
+          "value": "鳥類",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "昆蟲",
+            "english": "Insects",
+            "cn": "昆虫"
+          },
+          "value": "昆蟲",
+          "is_select": false
+        }
+      ]
+    },
+    {
+      "label": {
+        "zh": "植物",
+        "english": "Plants",
+        "cn": "植物"
+      },
+      "value": "植物",
+      "is_select": false,
+      "sub_cat": [
+        {
+          "label": {
+            "zh": "花",
+            "english": "Flowers",
+            "cn": "花"
+          },
+          "value": "花",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "草",
+            "english": "Grasses",
+            "cn": "草"
+          },
+          "value": "草",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "樹",
+            "english": "Trees",
+            "cn": "树"
+          },
+          "value": "樹",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "葉",
+            "english": "Leaves",
+            "cn": "叶子"
+          },
+          "value": "葉",
+          "is_select": false
+        },
+        {
+          "label": {
+            "zh": "種子",
+            "english": "Seeds",
+            "cn": "种子"
+          },
+          "value": "種子",
+          "is_select": false
+        }
+      ]
+    }
+  ],
+  "TEACH_GUIDE_CATEGORY": [
+    {
+      "label": {
+        "zh": "體能與健康",
+        "english": "Physical Fitness and Health",
+        "cn": "体能与健康"
+      },
+      "value": "體能與健康",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "語文",
+        "english": "Language",
+        "cn": "语文"
+      },
+      "value": "語文",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "幼兒數學",
+        "english": "Early Childhood Mathematics",
+        "cn": "幼儿数学"
+      },
+      "value": "幼兒數學",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "大自然與生活",
+        "english": "Nature and Living",
+        "cn": "大自然与生活"
+      },
+      "value": "大自然與生活",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "個人與羣體",
+        "english": "Self and Society",
+        "cn": "个人与群体"
+      },
+      "value": "個人與羣體",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "藝術與創意",
+        "english": "Arts and Creativity",
+        "cn": "艺术与创意"
+      },
+      "value": "藝術與創意",
+      "is_select": false
+    }
+  ],
+  "TEACH_GUIDE_THEME": [
+    {
+      "label": {
+        "zh": "學校",
+        "english": "School",
+        "cn": "学校"
+      },
+      "value": "學校",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "環保",
+        "english": "Go Green",
+        "cn": "环保"
+      },
+      "value": "環保",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "食物",
+        "english": "Food",
+        "cn": "食物"
+      },
+      "value": "食物",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "個人與家庭",
+        "english": "Self and Family",
+        "cn": "个人与家庭"
+      },
+      "value": "個人與家庭",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "幫助我們的人",
+        "english": "People who help us",
+        "cn": "帮助我们的人"
+      },
+      "value": "幫助我們的人",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "動物",
+        "english": "Animals",
+        "cn": "动物"
+      },
+      "value": "動物",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "交通",
+        "english": "Transportation",
+        "cn": "交通"
+      },
+      "value": "交通",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "大自然",
+        "english": "Nature",
+        "cn": "大自然"
+      },
+      "value": "大自然",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "社區",
+        "english": "Community",
+        "cn": "社区"
+      },
+      "value": "社區",
+      "is_select": false
+    },
+    {
+      "label": {
+        "zh": "健康與衛生",
+        "english": "Health and Hygiene",
+        "cn": "健康与卫生"
+      },
+      "value": "健康與衛生",
+      "is_select": false
+    }
+  ]
+}

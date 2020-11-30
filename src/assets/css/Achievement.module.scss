@@ -1,0 +1,92 @@
+//成就页面样式
+
+:global{
+  .achieve{
+    position: relative;
+    background: #fff9e3;
+    border: 8px solid #ffd195;
+    border-radius: 10px;
+    padding: 40px 20px 20px;
+    margin: 50px 0;
+    .ant-col{
+      text-align: center;
+    }
+    .title{
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .modalIcon{
+      position: absolute;
+      top: -20px;
+      left: 60%;
+      .modalbtn{
+        width: 30px;
+        position: absolute;
+        height: 30px;
+        border-radius: 30px;
+        padding: 0;
+      }       
+    }    
+  }
+  .ant-modal-body{
+    .Icon{
+      line-height: 76px;
+      img{
+        width: 80%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  @media (min-width: 1200px){
+    .achieve{
+      .ant-col{
+        width: 20%
+      }
+    }
+  }
+  @media (max-width: 1200px){
+    .achieve{
+      .title{
+        top: -45px;
+        width: 60%;
+      }
+      .modalIcon{
+        top: -30px;
+        left: 67%;
+      }
+    }
+  }
+  @media (max-width: 992px){
+    .achieve{
+      .title{
+        width: 65%;
+      }
+      .modalIcon{
+        left: 68%;
+      }
+    }
+  }
+  @media (max-width: 576px){
+    .achieve{
+      .title{
+        top: -30px;
+        width: 90%;
+      }
+      .modalIcon{
+        padding: 2px 5px;
+        top: -20px;
+        left: 68%; 
+        left: 74%;   
+      }
+    }
+    .ant-modal-body{
+      .Icon{
+        line-height: 50px;
+      }
+    }
+  }
+}

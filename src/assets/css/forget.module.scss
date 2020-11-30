@@ -1,0 +1,15 @@
+:global{
+  @media (max-width: 400px){
+    .ant-steps-horizontal.ant-steps-label-horizontal > .ant-steps-item > .ant-steps-item-tail::after {
+      display: none;
+     }
+  }
+}
+
+.flex {
+  display: flex !important;
+}
+
+h2 {
+  font-weight: 700
+}

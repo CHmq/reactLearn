@@ -1,0 +1,202 @@
+$border-radius: 1rem !default;
+
+.mainwarp {
+  :global {
+    // 设置弹框背景透明
+    .ant-modal-content {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border: 0;
+      border-radius: none;
+      box-shadow: none !important;
+    }
+  }
+  // 标头
+  .herader {
+    background-color: rgba(0, 0, 0, 0) !important;
+    position: relative;
+    padding-bottom: 1rem;
+    .logo {
+      height: 6rem;
+      background: url("../image/AlertlSelectionLogo.png") no-repeat center
+        center / 100% 100%;
+    }
+    .title {
+      display: flex;
+      align-items: center;
+      background: url("../image/AlertlSelection_title.png") no-repeat center
+        center / 100% 100%;
+      .word {
+        //  min-height: 5rem;
+        display: flex;
+        padding: 2rem 0 2rem 1.2rem;
+        align-items: center;
+        span {
+          transform: translate(0, -30%);
+          font-size: 1.2rem;
+          // padding-left: 1rem;
+          color: #fff;
+        }
+      }
+      .play {
+        cursor: pointer;
+        height: 2.5rem;
+        width: 2.5rem;
+        transform: translate(0, -15%);
+        background: url("../image/Sound.png") no-repeat center center/100% 100%;
+      }
+    }
+    .close {
+      position: absolute;
+      right: 0;
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      color: white;
+      font-weight: 900;
+      font-size: 1.8rem;
+      background: #5b448c;
+      border-radius: 50%;
+      right: -0.5rem;
+      top: -1rem;
+      text-align: center;
+    }
+  }
+  // 选择 pointer-events: none 禁止点击
+  .choose {
+    // height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: $border-radius;
+    .item {
+      position: relative;
+      width: 98%;
+      height: 90%;
+      border-radius: $border-radius;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
+      // background: url('') no-repeat center center/100% 100%;
+      border: 0.3rem solid #fff;
+      // 选中就是 border: .3rem solid #cecdcd;
+      // 选项A，B，C，D
+      .chooseItem {
+        width: 3.8rem;
+        height: 3.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: absolute;
+        left: -1rem;
+        top: -1rem;
+        background-color: #79499a;
+        color: #fff;
+        font-size: 2rem;
+        z-index: 1;
+      }
+      .state {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        border-radius: $border-radius;
+      }
+    }
+    // 答对的状态
+    .item.true {
+      border: 0.3rem solid #cecdcd;
+      .state {
+        background: url("../image/Choose_sY.png") no-repeat center center/ 30%
+          40%;
+        // display: none
+      }
+    }
+    // 答错的状态
+    .item.false {
+      border: 0.3rem solid #cecdcd;
+      .state {
+        background: url("../image/Choose_sN.png") no-repeat center center/ 25%
+          40%;
+        // display: none
+      }
+    }
+  }
+  // 尾部
+  .footer {
+    // 小原点
+    .page {
+      display: flex;
+      .SmallDots {
+        width: 0.8rem;
+        height: 0.8rem;
+        background-color: #fff;
+        border-radius: 50%;
+        margin: 0 0.5rem;
+      }
+      .SmallDots.active {
+        background-color: rebeccapurple;
+      }
+    }
+    // 按钮
+    .btnwarp {
+      .btn {
+        padding: 0.4rem;
+        font-size: 1rem;
+        background: url("../image/Choose_sBtn.png") no-repeat center center/100%
+          100%;
+        text-align: center;
+        color: #fff;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        i {
+          padding-right: 0.1rem;
+          font-size: 1.1rem;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mainwarp {
+    // 标头
+    .herader {
+      .title {
+        .word {
+          padding: 1rem 0 1rem 1.2rem;
+          span {
+            // transform: translate(0,-10%);
+            font-size: 0.9rem;
+          }
+        }
+        .play {
+          height: 1.8rem;
+          width: 1.8rem;
+        }
+      }
+    }
+    // 选择
+    .choose {
+      .item {
+        .chooseItem {
+          width: 2.8rem;
+          height: 2.8rem;
+        }
+      }
+    }
+    // 尾部
+    .footer {
+      // 按钮
+      .btnwarp {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

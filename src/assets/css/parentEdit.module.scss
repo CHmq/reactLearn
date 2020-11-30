@@ -1,0 +1,102 @@
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+  border: 3px solid transparent;
+  margin: 5px;
+  cursor: default;
+  /*max-width: 240px;*/
+}
+
+.card.current {
+  border-color: transparent !important;
+}
+.card.sex-M {
+  :global {
+    .ant-card-actions > li > span a,
+    button {
+      background-color: #3498db;
+    }
+  }
+}
+.card.sex-F {
+  :global {
+    .ant-card-actions > li > span a,
+    button {
+      background-color: #ff4d4f;
+    }
+  }
+}
+.card.current.sex-M {
+  background-color: skyblue;
+}
+.card.current.sex-F {
+  background-color: #ffc1c1;
+}
+.parentEditList {
+  :global {
+    .ant-tabs-nav {
+      width: 100%;
+    }
+    .ant-tabs-nav > div {
+      display: flex;
+    }
+    .ant-tabs-nav > div > .ant-tabs-tab {
+      flex: 1;
+      text-align: center;
+    }
+  }
+}
+.card_click {
+  border-color: #52c41f99 !important;
+}
+
+.card.sex-M:hover {
+  border-color: #3498db99;
+}
+.card.sex-F:hover {
+  border-color: #ff4d4f99;
+}
+
+.card {
+  :global {
+    .ant-card-actions {
+      border-top: 0;
+    }
+    .ant-card-actions > li {
+      padding: 0;
+      margin: 0;
+    }
+    .ant-card-actions > li > span {
+      // width: auto;
+      width: 100%;
+    }
+    .ant-card-actions > li > span a,
+    button {
+      height: auto;
+      padding: 10px 0;
+      background-color: #41c6e3;
+      color: white;
+      > .anticon-loading {
+        width: auto;
+      }
+    }
+  }
+}
+
+.card_AntD {
+  :global {
+    .ant-card-body {
+      padding: 24px !important;
+    }
+    .ant-col {
+      /*min-width: 250px;*/
+    }
+    .ant-card.is-current {
+      border-color: #52c41b;
+    }
+  }
+}
+
+.parent_list {
+  min-height: 100px;
+  /*border-bottom: 1px solid #e8e8e8;*/
+}

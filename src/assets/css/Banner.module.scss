@@ -1,0 +1,13 @@
+.BannerWarp {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 24%;
+}
+@media only screen and (max-width: 991px) {
+  // .BannerWarp {
+  //   height: auto !important;
+  // }
+  .BannerWarp.auto {
+    height: auto !important;
+  }
+}

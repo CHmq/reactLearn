@@ -1,0 +1,13 @@
+:global{
+  @media (max-width: 480px){
+    .ant-steps-horizontal.ant-steps-label-horizontal > .ant-steps-item > .ant-steps-item-tail::after {
+      // width: 1px;
+      // height: 100%;
+      display: none;
+     }
+  }
+}
+
+.flex {
+  display: flex !important;
+}

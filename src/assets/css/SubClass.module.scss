@@ -1,0 +1,125 @@
+.card_container {
+  height:100%;
+  overflow-x : hidden;
+  overflow-y :auto;
+  padding: 0 10px;
+  .select{
+    margin: 0;
+    font-size: 12px;
+    span{
+      font-size: 12px;
+      color: #2b4b80;
+    }
+  }
+  .card {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .mask {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .previewWrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .imgWrap {
+      width: 60%;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      h3 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        margin: 0;
+        font-weight: bold;
+        padding: 10px;
+        box-shadow: 0px 0px 5px #ccc;
+      }
+    }
+    p {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}
+.list_container{
+  padding: 0 15px;
+  h3{
+    margin: 0;
+    font-size: 13px;
+    color: #5582a4;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      list-style: none;
+      font-size: 12 px;
+      color: #5582a4;
+      line-height: 24px;
+    }
+  }
+  :global {
+      .ant-skeleton-content .ant-skeleton-title { 
+          background: linear-gradient(90deg, #d2d2d2 25%, #999999 37%, #d2d2d2 63%) !important;
+          background-size: 400% 100% !important;
+      }
+      .ant-skeleton-content .ant-skeleton-paragraph>li { 
+          background: linear-gradient(90deg, #d2d2d2 25%, #999999 37%, #d2d2d2 63%) !important;
+          background-size: 400% 100% !important;
+      }
+  }
+}
+.select_container{
+  padding-left: 15px;
+  h3{
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2b4b80;
+    line-height: 36px;
+  }
+  span{
+    line-height: 24px;
+    font-size: 12px;
+    color: #2b4b80;
+  }
+}
+.button_container{
+    margin : 0.5rem auto;
+  width: 100%;
+  text-align: center;
+  button {
+    background: #2b4b80;
+    border-color: #2b4b80;
+    margin: 0 10px;
+    font-size: 12px;
+    padding: 0 20px;
+  }
+  button:hover{
+    background: #2b4b80;
+    border-color: #2b4b80;
+  }
+}

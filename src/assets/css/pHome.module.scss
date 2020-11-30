@@ -1,0 +1,109 @@
+:global{
+  .pHome_container{
+    i{
+      display: block;
+      float: left;
+      width: 20px;
+      height: 20px;
+      img{ width: 100%; }
+    }
+    h3{
+      font-weight: bold;
+    }
+    .banner_container{
+      img{ width: 100%; }
+    }
+    .pArticle_container{
+      padding-top: 50px;
+      max-width: 1300px;
+      .pArticle_pic{
+        margin-bottom: 30px;
+        .pArticle_img{
+          height: 225px;
+          box-shadow: #ccc 3px 3px 5px;
+          border-radius: 12px;
+        }
+      } 
+      .pArticle_list{
+        .pArticle_list_bg{
+          min-height: 225px;
+          background: #f1f8ff;
+          box-shadow: #ccc 3px 3px 5px;
+          border-radius: 12px;
+          padding: 20px;
+        }
+      }
+    }
+    .news_container{
+      padding: 50px 0;
+      max-width: 1300px;
+      .news_list{
+        ul{
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          li{
+            padding-bottom: 20px;
+            cursor: pointer;
+          }
+          li>i{
+            margin-right: 10px;
+            background: url("../image/news_icon1.gif")no-repeat left center;
+          }
+          li:nth-child(2)>i{
+            margin-right: 10px;
+            background: url("../image/news_icon2.gif")no-repeat left center;
+          }
+          li:nth-child(3)>i{
+            margin-right: 10px;
+            background: url("../image/news_icon3.gif")no-repeat left center;
+          }
+          li:nth-child(4)>i{
+            margin-right: 10px;
+            background: url("../image/news_icon4.gif")no-repeat left center;
+          }
+        }
+      }
+      .box{
+        min-height: 270px;
+        padding: 20px;
+        box-shadow: #ccc 0px 0px 5px;
+        background-color: #fff;
+        margin-bottom: 30px;
+      }
+      .pic_box{
+        text-align: center;
+        .pic{
+          height: 200px;
+        }
+        span{
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .img_Box{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 0;
+  }
+  .img_Box:before{
+    display: inline-block;
+    content: '';
+    width: 0;
+    vertical-align: middle;
+    height: 100%;
+  }
+  .img_Box img{
+    vertical-align: middle;    
+    max-width: 100%;  
+    max-height: 100%;     
+  }
+  .dangerously{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

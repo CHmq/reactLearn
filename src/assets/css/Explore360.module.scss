@@ -1,0 +1,44 @@
+.wrap{
+  .list_container{
+    max-height: 80vh;
+    overflow-y: auto;
+    margin-top: 20px;
+    min-height: 200px;
+    padding: 15px 0;
+    .list_item{
+      margin-bottom: 20px;
+      .list_item_inner{
+        padding: 10px;
+        box-shadow: 0px 0px 8px #888888;
+        video, .file_img{
+          width: 100%;
+          object-fit: contain;
+          height: 100px;
+        }
+        video{
+          height: 95px;
+        }
+        h1{
+          color: #aa4744;
+          height: 100px;
+          margin: 0;
+        }
+        h3{
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .list_comment_icon{
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        span {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+//小贴士组件样式
+.tip_container {
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .ant-card-body {
+    padding: 0;
+  }
+}
+//遮罩
+.tip_container {
+  position: relative;
+  .tip_mask {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 25px 25px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    background: rgba($color: #000000, $alpha: 0.5);
+    color: #fff;
+    i {
+      float: right;
+      line-height: 21px;
+    }
+  }
+}

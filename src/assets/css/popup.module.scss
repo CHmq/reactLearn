@@ -1,0 +1,29 @@
+:global {
+  .message_popup {
+    .ant-modal-content {
+      background: rgba(0, 0, 0, 0);
+      border-radius: 30px;
+      // box-shadow: none !important;
+      .ant-row {
+        background: #fff;
+      }
+
+      .ant-modal-close {
+        top: -16px;
+        right: -16px;
+        border-radius: 50%;
+        background-color: #12b6c2;
+
+        span {
+          width: 65px;
+          height: 65px;
+          line-height: 65px;
+          i {
+            font-size: 30px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

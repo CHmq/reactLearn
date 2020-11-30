@@ -1,0 +1,16 @@
+// card 卡片样式
+div.card {
+  box-shadow: 0 1px 8px rgba(10, 16, 20, 0.24), 0 0 8px rgba(10, 16, 20, 0.12);
+  border-radius: 15px;
+  margin: 0 auto 20px;
+  .list_container{
+    ul{
+      padding-left: 20px; 
+      margin-bottom: 20px;
+      font-size: 12px;
+      li{
+        line-height: 35px;
+      }
+    }
+  }
+}

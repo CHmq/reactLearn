@@ -1,0 +1,28 @@
+{
+  "short_name": "EVIGarten",
+  "name": "EVIGarten 自主探索學習天地",
+  "icons": [
+      {
+          "src": "https://app-info.evigarten.com/evigarten/manifest/192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "https://app-info.evigarten.com/evigarten/manifest/512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#139fcd",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "related_applications": [
+      {
+          "platform": "play",
+          "url": "https://play.google.com/store/apps/details?id=hk.com.evi.evifamily.kids"
+      }
+  ]
+}

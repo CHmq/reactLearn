@@ -1,0 +1,35 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:10.16.0
+
+pipelines:
+  default:
+    - step:
+        script: # Modify the commands below to build your repository.
+          - echo "This script runs on all branches."
+  branches:
+    master:
+      - step:
+          caches:
+            - node
+          script:
+            - echo "This script runs only on commit to the master branch."
+    release/*:
+      - step:
+          caches:
+            - node
+          script:          
+            - echo "This script runs only on commit to the release branch."
+            - npm install
+            - npm test
+            - pipe: atlassian/slack-notify:0.3.2
+              variables:
+                  WEBHOOK_URL: "https://evideveloper.slack.com/messages/DPX12BM1D"
+                  MESSAGE: 'build finish'
+            
+            
+            
+            

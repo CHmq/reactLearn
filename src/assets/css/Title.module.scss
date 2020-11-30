@@ -1,0 +1,29 @@
+$blue:rgb(1, 88, 155);
+$gray:rgb(175, 175, 175);
+.imgWarp {
+  display: flex;
+  align-items: center;
+}
+.word {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  .title {
+    font-size: 2.8em;
+    font-weight: 600;
+    color:$blue;
+    display: flex;
+    align-items: center;
+    padding-left: .3em;
+    width:100%;
+    span {
+      padding-left: .3em;
+      font-size: .4em;
+      color: $gray;
+      box-sizing: border-box;
+    }
+  }
+}
+.right {
+  // background: yellow;
+}

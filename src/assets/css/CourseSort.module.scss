@@ -1,0 +1,36 @@
+:global {
+  .courseSort_container {
+    .courseList_container {
+      height: 378px;
+      overflow: auto;
+    }
+    .courseList_container::-webkit-scrollbar {
+      width: 6px;
+    }
+    /* 滚动槽 */
+    .courseList_container::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+    /* 滚动条滑块 */
+    .courseList_container::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    .tooltip {
+      color: #385688;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+    .button_container {
+      text-align: center;
+      margin: 50px 0;
+      button {
+        background: #2b4b80;
+        border-color: #2b4b80;
+        margin: 0 10px;
+        padding: 0 50px;
+        font-size: 12px;
+      }
+    }
+  }
+}

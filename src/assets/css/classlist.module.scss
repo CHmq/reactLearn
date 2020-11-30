@@ -1,0 +1,56 @@
+.bannermain {
+  height:100%;
+  .schoologo {
+    height:100%;
+  }
+}
+
+.item {
+  margin-left: 2.16666667%;
+}
+.line {
+  height: 50px;
+  .date {
+    background: #02599c;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    left: 40%;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+.container {
+  position: relative;
+  width: 185px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  .pic {
+    width: 185px;
+    height: 150px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .mask {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 35px;
+    background: rgba(0,0,0,.5);
+    padding: 0 15px;
+    .message {
+      display: inline-block;
+      width: 100%;
+      font-size: 24px;
+      color: #fff;
+      line-height: 35px;
+      text-align: center;
+    }
+  }
+}

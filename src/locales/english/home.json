@@ -1,0 +1,857 @@
+{
+  "home": {
+    "page": "home",
+    "language": "en",
+    "publicMsg": {
+      "LocationNotice": {
+        "title": "Suggest a location for you",
+        "content": "Region \"{_location}\" has been released , change now and watch what's more suitable for you.",
+        "confirm": "Change Now!"
+      },
+      "header": {
+        "loginbtn": "Login ",
+        "guestbtn": "Member Login",
+        "schoolbtn": "School Login",
+        "registerbtn": "Sign Up",
+        "searchTips": "Search",
+        "rankingList": "Top 100 Members",
+        "history": "History",
+        "favorite": "My Favourite",
+        "award": "Reward",
+        "parents": "Parent",
+        "child": "Kid",
+        "translations": "Multi-language",
+        "accomplish": "Accomplishment",
+        "languageList": {
+          "translations": "Multi-language",
+          "locationLanguage": "Language",
+          "location": "Other region",
+          "locations": {
+            "hk": "Hong Kong",
+            "my": "Malaysia",
+            "hk_GFW": "Hong Kong(Cross-border)",
+            "cn": "China",
+            "mo": "Macau",
+            "all": "all"
+          }
+        }
+      },
+      "footer": {
+        "about": "About Us",
+        "liaison": "Contact Us",
+        "agreement": "Privacy Policy",
+        "Disclaimer": "Disclaimer"
+      },
+      "drawer": {
+        "PleaseSelectChild": "Please select your kid account to access",
+        "ChangePword": "Change Password",
+        "LogoutWord": "Logout",
+        "charttitle": "Last 7 days self-study time",
+        "chartmin": "Min",
+        "chartweek": "Date",
+        "awardtitle": "Achievement",
+        "more": "More Achievement",
+        "LogoutTitle": "Are you sure you want to logout?",
+        "Btncancel": "Cancel",
+        "Btnconfirm": "Yes",
+        "titleTransfer": "Switch Accounts"
+      },
+      "avatar": {
+        "tip": "Please upload a new avatar",
+        "upload": "Upload an Avatar",
+        "preview": "Preview"
+      },
+      "role": {
+        "firstLogin": {
+          "title": "Login with Kid Account",
+          "form": {
+            "username": "Please enter user name",
+            "pwd": "Please enter password"
+          },
+          "rememberMe": "Remember me",
+          "forgetPwd": "Forgot password",
+          "loginIn": "Login",
+          "fbLoginIn": "Login with Facebook",
+          "wxLoginIn": "Login with Wechat",
+          "emailVerify": "Parent's email verification",
+          "phoneVerify": "Parent's phone verification",
+          "LoginTipsRegister": {
+            "or": "or",
+            "tips": "Don't have an account?",
+            "goParent": "Sign up for a parent account"
+          },
+          "msg": {
+            "success": "Binding success! Browse as a child's login.",
+            "failed": "Logon failure, engineers are checking for errors, please try again later!",
+            "noLogIn": "Log in failed, no right to log in!",
+            "accountError": "Account or password error, please try again.",
+            "userNull": "This user does not exist",
+            "pwdNull": "Password cannot be empty!",
+            "accountBind": "Please log in or register your parent account for binding.",
+            "errorDelay": "An unknown error has occurred! Please try again later... or you can give us the reason for the customer service error.",
+            "welcome": "Welcome to EVIGarten!"
+          }
+        },
+        "edit": {
+          "title": "Family Account Management",
+          "family": "Family :",
+          "settings": {
+            "currentAccout": "current account",
+            "userInformation": "Personal Data",
+            "isBinding": "Is Binding",
+            "bind": "binding",
+            "enter": "Go ",
+            "kidVer": "Kid Section",
+            "parentVer": "Parent Section",
+            "settings": "Settings",
+            "join": "join",
+            "beConfirmed": "To be confirmed"
+          },
+          "parent": {
+            "parentTitle": "Parent",
+            "teacher": "Teacher Account",
+            "role": "Administrator",
+            "father": "Father",
+            "mother": "Mother",
+            "maternal_grandfather": "Maternal Grandfather",
+            "maternal_grandmother": "Maternal Grandmother",
+            "paternal_grandfather": "Paternal Grandfather",
+            "paternal_grandmother": "Paternal Grandmother",
+            "child": "Child",
+            "other": "OTHER"
+          },
+          "kid": {
+            "kidTitle": "Kid",
+            "state": {
+              "isBinding": "With binding",
+              "unbound": "Without binding"
+            },
+            "role": {
+              "isBinding": "Account Binding",
+              "unbound": "Trial Account"
+            }
+          },
+          "addKid": "Add Kid Account",
+          "addFamilyKid": "Invite Family Member",
+          "ensure": "Yes",
+          "userEdit": {
+            "title": "edit profile",
+            "name": "name",
+            "gender": {
+              "title": "gender",
+              "M": "Men",
+              "F": "female"
+            },
+            "relation": {
+              "title": "relationship",
+              "FATHER": "Father",
+              "MOTHER": "Mother",
+              "MATERNAL_GRANDFATHER": "Maternal Grandfather",
+              "MATERNAL_GRANDMOTHER": "Maternal Grandmother",
+              "PATERNAL_GRANDFATHER": "Paternal Grandfather",
+              "PATERNAL_GRANDMOTHER": "Paternal Grandmother",
+              "child": "Child",
+              "OTHER": "Guardian and others"
+            },
+            "save": "Save"
+          },
+          "parentEditMes": {
+            "accountNull": "No account has been selected. Please try again.",
+            "accountCurrent": "It's the current account!",
+            "change": "Switch",
+            "bind": "Binding",
+            "Coming": " success, now is going to",
+            "parents": "「Parent」",
+            "kids": "「Kid」",
+            "home": "homepage"
+          }
+        },
+        "tipsAddKid": {
+          "title": "Add Kid Account",
+          "addTrialAccout": "Add Trial Account",
+          "addExistAccout": "Add EVIGarten Account",
+          "addExistAccoutRemark": "此選項需有由學校派發的 EVIGarten 帳戶登入信"
+        },
+        "addKid": {
+          "form": {
+            "f_name": "Name",
+            "l_name": "last name",
+            "gender": {
+              "M": "Male",
+              "F": "Female"
+            },
+            "grade": "Grade"
+          },
+          "title": "Add Trial Account",
+          "addAccount": "Add Account",
+          "return": "Back"
+        },
+        "addParent": {
+          "title": "Add Family Member",
+          "form": {
+            "msg_tips": "Please choose a way to add family members(only enter members' email address or phone number)",
+            "email": "Please enter email address",
+            "tel": "Please enter phone number",
+            "or": "or",
+            "relationship": "Relationship",
+            "FATHER": "Father",
+            "MOTHER": "Mother",
+            "MATERNAL_GRANDFATHER": "Maternal Grandfather",
+            "MATERNAL_GRANDMOTHER": "Maternal Grandmother",
+            "PATERNAL_GRANDFATHER": "Paternal Grandfather",
+            "PATERNAL_GRANDMOTHER": "Paternal Grandmother",
+            "child": "child",
+            "OTHER": "Guardian and others"
+          },
+          "save": "Add Family Member",
+          "return": "Back"
+        }
+      },
+      "search": {
+        "placeholder": "Search for EVI Resources"
+      },
+      "resource_type": {
+        "jttw360": "Explore360",
+        "jttw": "Journey to the world",
+        "learn": "Self Learning",
+        "news": "News Scope",
+        "science": "Science",
+        "treehouse": "Tree House",
+        "storybook_video": "Story Book",
+        "song_english": "Song (English)",
+        "song_zh": "Song (Chinese)",
+        "project": "Project",
+        "worksheet": "Worksheet",
+        "mc": "MC",
+        "img_real": "Photo",
+        "img_cartoon": "Cartoon Pictures",
+        "img_line_graph": "Line Pictures",
+        "audio": "Audio",
+        "video": "Video",
+        "download": "Other",
+        "document": "Document",
+        "teach_guide": "Teaching Guide",
+        "mix": "Second creation"
+      }
+    }
+  },
+  "loading": {
+    "page": "logout",
+    "language": "en",
+    "publicMsg": {
+      "register": {
+        "title": "Welcome {full_name}'s parent to EVIGarten!",
+        "content": "Please enter your information to sign up for a parent account.",
+        "procedure": {
+          "code": "Enter Parent's Information",
+          "verify": "Verification",
+          "done": "Finish"
+        },
+        "type": {
+          "email": "Email",
+          "phone": "Phone",
+          "facebook": "Facebook"
+        },
+        "form": {
+          "email": "Email",
+          "pwd": "Password",
+          "confirmpwd": "Confirm Password",
+          "sex": "Gender",
+          "man": "Male",
+          "lady": "Female",
+          "name": "Name",
+          "surname": "Surname",
+          "phone": "Mobile number",
+          "occupied": "The email / mobile has been registered",
+          "occupied_kid": "The email address has been registered in intranet",
+          "verifyMsg": {
+            "emailMsg": "Please enter email",
+            "emailWarnMsg": "Please enter correct email form",
+            "pwdMsg": "Please enter password",
+            "pwdWarnMsg": "Please enter 6-30 characters with a mix of letters and numbers",
+            "confirmMsg": "Confirm new password",
+            "confirmWarnMsg": "Those passwords didn't match",
+            "name": "name entered cannot has space",
+            "surname": "surname entered cannot has space",
+            "nameMsg": "Please enter your name",
+            "surnameMsg": "Please enter your surname",
+            "phoneMsg": "Please select country code related to your phone number",
+            "Phone": "Please enter your phone number",
+            "Phone Warn Msg": "Please enter correct phone form"
+          },
+          "btn": "Next",
+          "return": "Back"
+        },
+        "verify": {
+          "code": "Verification code",
+          "codeMsg": "Please enter the verification code",
+          "codeWarnMsg": "Please enter 6-digit verification code",
+          "sendbtn": "Resend",
+          "resendbtn": "s resend",
+          "btn": "Verify"
+        }
+      }
+    },
+    "content": {
+      "titleleft": "Self-Directed Enquiry",
+      "contentleft": "Adhering to the “Self-directed Enquiry • Learn to Learn” concept, EVIGarten suggests contents children might be interested in through AI to promote self-directed learning.",
+      "titlemiddle": "Diversity Learning",
+      "contentmiddle": "EVIGarten provides a wide diversity of courses. For example, “Explore 360” enables children to explore the world while “Knowledge in Life” provides ten daily lives topics for kindergartens. There are also other multimedia learning courses for children.",
+      "titleright": "Learning Portfolio",
+      "contentright": "EVIGarten provides both parents and children with a comprehensive learning portfolio, so that parents can learn about their children’s learning interest and progression at ease. Achievement records with an adorable design also help boost children’s learning motivation.",
+      "morebtn": "Show More"
+    },
+    "login": {
+      "parentLogin": {
+        "welcomeTips": {
+          "oneLine": "Welcome {name}'s parent to EVIGarten!",
+          "towLine": "Please enter your information to sign up for a parent account."
+        },
+        "loginIn": "Login",
+        "ParentTipsRegister": {
+          "or": "or",
+          "tips": "Don't have a parent account?",
+          "goParent": "Sign up for a parent account",
+          "return": "Back"
+        }
+      }
+    },
+    "forget": {
+      "infortitle": "Enter Information",
+      "title": "Verify",
+      "gettitle": "Please enter email or phone number",
+      "inputrule": "Please enter email or phone number",
+      "verifybtn": "Send verification code",
+      "verifytitle": "Received verification code",
+      "verifynumber": "Verification code",
+      "verifyrule": "Please enter verification code ",
+      "getverifybtn": "Send verification code",
+      "old_password": "Old Password",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "passwordnull": "Please enter password",
+      "passwordrule": "Please enter 6-30 characters with a mix of letters and numbers",
+      "passwordconfirm": "Please re-enter password",
+      "passwordbtn": "Reset Password",
+      "modify": "Password updated! It will return to the login page",
+      "goBack": "Back to step one",
+      "sendCodeSuccess": "Send verification code successfully",
+      "sendCodeFailed": "Failed to send verification code",
+      "pwdRevise": "Password update failed",
+      "cancel": "Cancel"
+    },
+    "course": {
+      "title": "Knowledge in Life",
+      "content": "Get access to ten daily lives topics, including Transportation, Animals, Nature, Community, Health and Hygiene, School, Go Green, Food, Self and Family, and People who help us. Children can learn about different topics depending on their interests. “MC Questions”, “Worksheets” and “Project Exploration” are available."
+    },
+    "explore": {
+      "title": "Explore 360",
+      "content": "With animated stories, thinking questions, games and moral education, students are encouraged to explore and think more, so as to construct knowledge."
+    },
+    "festival": {
+      "title": "Festivals",
+      "content": "Animations featuring “Christmas”, “Lunar New Year”, “Mid-Autumn Festival” and other festivals are available for teachers to use in class, or for parents and children to watch together at home, so that children can have more understanding of different festivals."
+    },
+    "chinese": {
+      "title": "Language (Chinese)",
+      "content": "Animated stories are made in accordance with the ten topics. Trilingual versions, Cantonese, English and Putonghua, are available. After watching the animated stories, children can complete the “Exercises” or “Thinking questions” to reinforce knowledge and cultivate self-learning abilities."
+    },
+    "change": {
+      "title": "Text changes",
+      "content": "According to the commonality and difficulty of the words, 60 common words of kindergartens were selected to introduce their pronunciation, stroke order and text evolution in vivid animation, and to provide a fun word-matching game."
+    },
+    "story": {
+      "title": "Virtue Stories",
+      "content": "By telling the stories of different ancient celebrities and the experience of our daily lives in an interesting way, children are able to cultivate good moral character and establish correct values. Each unit has a different topic."
+    },
+    "phonics": {
+      "title": "Phonics",
+      "content": "Phonics made easy! Get your kids to learn phonics through animated stories, nursery rhymes and simple actions! Each phonic is matched with word practice for your kids to build their vocabularies."
+    }
+  },
+  "achievements": {
+    "page": "achievements",
+    "language": "en",
+    "content": {
+      "titleImg": "Please select a picture to upload",
+      "titlerelationship": "Parent-child relationship",
+      "nowatch": "Never",
+      "lesshalfwatch": "Less than half",
+      "halfmorewatch": "Half or more",
+      "fullwatch": "Always",
+      "titleTime": "Time in EVIGarten today",
+      "min": "Minutes",
+      "week": "7 Days",
+      "month": "30 Days",
+      "titleAbility": "Intellectual Challenge Ability",
+      "Logintime": {
+        "today": "Today",
+        "week": "Last 7 days",
+        "month": "Last 30 days"
+      },
+      "medal": "How to get a medal? ",
+      "bronzeMedal": "Complete 50-60% of the course",
+      "silverMedal": "Complete 61-80% of the course",
+      "goldMedal": "Complete 81-99% of the course",
+      "diamond": "Complete 100% of the course",
+      "gen_cert_job": "My Digital Certificate",
+      "medal_msg": "You do not have enough medals to get a digital certificate, please keep working hard!",
+      "loading_msg": "We are now preparing your digital certificate, please wait."
+    }
+  },
+  "info": {
+    "page": "info",
+    "language": "en",
+    "content": {
+      "Message": {
+        "title": "Parents Comments",
+        "btnword": "Comments",
+        "tiptitle": "Please enter content",
+        "commentsword": "Default Comments",
+        "Submitbtn": "Sumbit"
+      },
+      "Card": {
+        "Sharebtn": "Other Children's Project Exploration",
+        "backbtn": "Back"
+      }
+    }
+  },
+  "myFavorite": {
+    "page": "favorite",
+    "language": "en",
+    "content": {
+      "title": "My Favourite"
+    }
+  },
+  "history": {
+    "page": "history",
+    "language": "en",
+    "content": {
+      "title": "History"
+    }
+  },
+  "schoolCourse": {
+    "btn_description": "Description",
+    "btn_video": "Video",
+    "btn_more": "see more",
+    "btn_retract": "retract",
+    "type_all": "All",
+    "type_course": "Course",
+    "type_video": "Learning Resources",
+    "type_poject": "Poject",
+    "title_progress": "Progress",
+    "title_soon": "Soon",
+    "title_finish": "Finish",
+    "menu_edit": "Edit",
+    "menu_change_cover": "Change cover",
+    "menu_repot": "Report",
+    "menu_delete": "Delete",
+    "msg_noData": "Please wait while the courses are being arranged. Thank you."
+  },
+  "course_1": {
+    "page": "course_1",
+    "language": "en",
+    "content": {
+      "traffic": "Transportation",
+      "videoTitle": "Introduction Video",
+      "ModalTitle": "Please select a photo or video to upload",
+      "fileTitle": "Please select a picture to upload",
+      "setbtn": "Edit",
+      "changebtn": "Change cover",
+      "reportbtn": "Report",
+      "deletebtn": "Delete",
+      "see": "See",
+      "seen": "Seen",
+      "Breadcrumb": {
+        "home": "Homepage",
+        "lifeKnowledge": "Knowledge in Life"
+      },
+      "option": {
+        "grade": "Please select the grade",
+        "studentEdit": "Report",
+        "calssAdd": "Add Course",
+        "tabtitle": "Curriculum report",
+        "favouriteY": "Like",
+        "favouriteN": "Add to Favourites"
+      },
+      "edit": {
+        "banner": "Change Background",
+        "video": "Change Video",
+        "logo": "Update",
+        "background": "Change Bakcground",
+        "tipeditor": "Editor",
+        "tiptitle": "Title",
+        "tiptext": "Text",
+        "tipbtn": "Submit"
+      },
+      "delete": {
+        "file": "Delete Cover",
+        "banner": "Delete Background",
+        "video": "Delete Video",
+        "del_btn": {
+          "title": "Delete Course",
+          "del_contant": "Are you sure you want to delete",
+          "okText": "Confirm",
+          "cancelText": "Cancel "
+        }
+      },
+      "confirm": {
+        "file": "Are you sure you want to delete the cover?",
+        "banner": "Are you sure you want to delete the background?",
+        "video": "Are you sure you want to delete the video?"
+      },
+      "PopupAECoursware": {
+        "Type": "Type",
+        "State": "State",
+        "Name": "Title",
+        "Resource": "File Type",
+        "Question": "Question",
+        "File": "File",
+        "FileSupport": "File Support",
+        "Coverimg": "Cover",
+        "Coverimgbtn": "Upload photos",
+        "CoverimgSupport": "File Support",
+        "Grade": "Grade",
+        "Releasetime": "Publish Time",
+        "Endtime": "End Time",
+        "Teachingfocus": "Teaching Point",
+        "Keywords": "Keywords",
+        "IsDownload": "Allow Downloads",
+        "DownloadYes": "Yes",
+        "DownloadNo": "No",
+        "TITLE": "Add",
+        "btnadd": "Add",
+        "btnsure": "Confirm",
+        "Radiodocument": "Worksheet",
+        "Radioproject": "Project",
+        "RadioResource": "School-based resources",
+        "SelectEffective": "Valid",
+        "SelectInvalid": "Invalid",
+        "rulesType": "Please select a type",
+        "rulesStatus": "Please select a status",
+        "rulesName": "Please enter a title",
+        "rulesGrade": "Please select a grade",
+        "rulesReleasetime": "Please select the pulish time",
+        "information": "Information",
+        "file": "Files",
+        "mix": "Second creation",
+        "deleteItem": "Delete file",
+        "setCover": "Set cover",
+        "mainDelete": "Delete courseware",
+        "deleteItem_tip": "Are you sure you want to delete this file?",
+        "setCover_tip": "Are you sure you want to set this picture as a cover image?",
+        "mainDelete_tip": "Are you sure you want to delete the courseware?",
+        "video_tip": "Drag files to set the order of videos",
+        "maxNum_tip": "The number of added videos cannot exceed 10",
+        "video_tab": "Video library",
+        "upload_tab": "Upload",
+        "noVideo": "No Video",
+        "search_placeholder": "Search for video resources",
+        "update_sort": "Update Sort",
+        "streaming_tootip": "Support Video Streaming"
+      },
+      "PopupCoursware": {
+        "title": "Search Resource",
+        "changeItem": "Seleced",
+        "Teachingfocus": "Teaching Point",
+        "btnnew": "Add",
+        "btnbuild": "Create",
+        "edit": "Edit"
+      }
+    },
+    "tabs": {
+      "data": "Course Information",
+      "sort": "Course Sorting"
+    },
+    "courseData": {
+      "editTitle": "Edit Course",
+      "addTitle": "Create A Course",
+      "form": {
+        "name": "Course Title",
+        "namerules": "Please enter the course name",
+        "namenull": "Course name can not be empty",
+        "classname": "Please enter the course name",
+        "publish_time": "Pulish Time",
+        "end_time": "End Time",
+        "grade": "Grade",
+        "gradenull": "Please choose grade",
+        "description": "Teaching Point:"
+      },
+      "RadioGroup": {
+        "all": "Publish All",
+        "schedule": "Schedule(Dim)",
+        "arrange": "Schedule(Hide)"
+      },
+      "button": {
+        "compile": "Edit",
+        "cancel": "Cancel",
+        "nextStep": "Next"
+      }
+    },
+    "courseSort": {
+      "prompt": "Drag the resource to prioritize by mouse:",
+      "button": {
+        "previous": "Previous",
+        "done": "Done"
+      }
+    },
+    "UploadingFile": {  
+      "tip": "Upload Photos/ Videos",
+      "fileTip": "Upload file",
+      "toCut": "To cut",
+      "uploadDefaultImg": "Or select background image",
+      "btn": "Confirm",
+      "cancel": "Cancel",
+      "tab_theme": "Theme",
+      "tab_frame": "Frame",
+      "tab_character": "EVI Character"
+    }
+  },
+  "coursefinish": {
+    "page": "coursefinish",
+    "language": "en",
+    "content": {
+      "title": "School-Base Curriculum",
+      "Completed": "Completed",
+      "backbtn": "Back"
+    }
+  },
+  "festival": {
+    "page": "festival",
+    "language": "en",
+    "content": {
+      "title": "festival",
+      "Completed": "Completed"
+    }
+  },
+  "knowledgefinish": {
+    "page": "knowledgefinish",
+    "language": "en",
+    "content": {
+      "title": "Knowlege in Life",
+      "Completed": "Completed",
+      "Open": "Unlocked object",
+      "change": "Change the outfit",
+      "backbtn": "Back"
+    }
+  },
+  "ranking": {
+    "page": "ranking",
+    "language": "en",
+    "content": {
+      "btnrules": "Rules for calculating Top 100 Members",
+      "time": "Updated date"
+    }
+  },
+  "article": {
+    "page": "article",
+    "button": {
+      "plan": "CEO Certificate",
+      "history": "Reading Record"
+    },
+    "planPopup": {
+      "txt": "<h2>Concept:</h2><p>Parents generally put their children’s education in a significant position, but parent education is very important as well, so that EVI cooperates with The Hong Kong Institute of Family Education to provide CEO Parents (Childhood Education) Certificate Scheme. It divides the content into 5 categories, including Emotion Management, Behavior Management, Parent-Child Relationships, Child Health and Child Study. It aims to encourage parents to be competent, effective and optimistic through reading different practical articles and watching videos, so as to enhance the ability of parents to educate their children and to build up a close rapport with their children.</p><h2>Details:</h2><p>Parents will receive a e-sticker when they finish reading a CEO article, rating, voting and doing mc question in specific date. <br />‧Certificate of third-class honor when receiving 15 e-stickers<br />‧Certificate of second-class honor when receiving 25 e-stickers<br />‧Certificate of first-class honor when receiving 25 e-stickers and write an article about experience in educating children</p><h2>The important date:</h2>",
+      "record_end_msg": "Date of reading article:",
+      "submit_end_msg": "Deadline of handing in an article about experience in educating children:",
+      "button": {
+        "submit": "Submit personal parenting tips",
+        "view": "View uploaded files"
+      }
+    }
+  },
+  "general": {
+    "intranet": "Intranet",
+    "coming_soon": "Coming Soon",
+    "no_more_record": "No more record",
+    "lang": {
+      "zh": "繁",
+      "cn": "简",
+      "english": "ENG"
+    },
+    "button": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "yes": "Yes",
+      "no": "No",
+      "back": "Back",
+      "select_all": "Select All",
+      "unselect_all": "Unselect All",
+      "select_class": "Select Class",
+      "select_course": "Select Course",
+      "remind": "Remind",
+      "customize": "customise",
+      "subtopic": "subtopic",
+      "details": "Preview",
+      "download": "Download",
+      "upload": "Upload",
+      "setCover": "Set as cover",
+      "score": "score",
+      "submitted": "Submitted",
+      "unsubmitted": "Unsubmitted",
+      "rated": "Rated",
+      "not_rated": "Not rated",
+      "add": "Add",
+      "refresh": "refresh",
+      "done": "Done"
+    },
+    "loading": "Entering. If you cannot jump, please click enter.",
+    "form": {
+      "amount_completed": "Completed",
+      "student_name": "Student Name",
+      "course_name": "Course Name",
+      "resource": "Resource",
+      "action": "Action",
+      "suggest": "Duration:",
+      "designation": "Open at specified time",
+      "language": "Language",
+      "top": "Top",
+      "status": "Status",
+      "before": "Before Launch Date",
+      "after": "After Expiry Date",
+      "forever": "Post-permanent display",
+      "whatever": "Open at any time",
+      "Advanced": "Advanced",
+      "lock": "Lock",
+      "hide": "Hide",
+      "open": "Open",
+      "all": "all",
+      "unread": "unread",
+      "read": "read",
+      "region": "Region",
+      "is_show": "Whether to show",
+      "page": "Page"
+    },
+    "msg": {
+      "please_reg": "Please sign up for EVIGarten for more details",
+      "please_upgrade": "If you wish to watch other course content, please upgrade to full membership. EVIGarten provides one-month, three-month and one-year subscription plans, enabling you to get access to over 20 courses. For details, please contact us at (852) 2114 0333 or <a href='mailto:marketing@evi.com.hk'>marketing@evi.com.hk</a>.",
+      "please_upgrade_cn": "From now until March 31, 2020, EVI will open “learning courses at home” for free to achieve “non-stop classes”. If you want to watch more rich content, you need to upgrade to a full version member, please call (020) 38468751 ",
+      "update_success": "Update Successfully",
+      "update_error": "Update failed. The background was selected",
+      "reg_success": "Sign Up Successfully",
+      "success": "Success",
+      "failure": "Failure",
+      "is_parent_join": "Do parents join with you?",
+      "select_topic": "Select topic",
+      "select_subtopic": "Select subtopic",
+      "release_settings": "Course Setting",
+      "search": "Search for EVI Resources",
+      "choose_grade": "Please select the grade",
+      "enter_text": "Please enter text here",
+      "submit_success": "Submit Successfully",
+      "recommend_size": "Recommended Size",
+      "uploading": "Uploading...",
+      "upload_success": "Upload success",
+      "upload_failed": "Upload failed, please try again",
+      "no_right": "No right to operate, please refresh and try again",
+      "login_expired": "Login has expired, please try again",
+      "device_update": "The device has been updated, please refresh and try again",
+      "re_register": "Already logged out, please log in again and try again",
+      "upload_type": "Only support .gif / .jpg / .jpeg / .png / .mp4 / .ppt / .pptx / .ppsx / .mov / .mp3 / .pdf / .doc / .docx / .xls / .xlsx",
+      "upload_type2": "Only support .gif / .jpg / .jpeg / .png / .mp4 / .mov / .pdf",
+      "upload_type3": "Only support .mp4 / .mov",
+      "upload_website": "Website:<br />View online and download: .gif / .jpg / .jpeg / .png / .mp4 / .mp3 / .pdf<br />Download only: .ppt / .pptx / .ppsx / .doc / .docx / .xls / .xlsx",
+      "upload_app": "APP:<br />View online and download: .gif / .jpg / .jpeg / .png / .mp4 / .mov / .mp3 / .pdf / .ppt / .pptx / .ppsx / .doc / .docx / .xls / .xlsx",
+      "file_size": "File is too large, upload limit is 1GB<br><br>If you have any questions, please contact us at 2114 0333",
+      "not_submitted": "Not yet submit",
+      "prohibit_deletion": "This resource has submitted files and cannot be deleted",
+      "please_check": "I confirm that I own or have the necessary licenses for the copyrights to any content uploaded to “School-based Curriculum”.",
+      "comment_msg": "Reviews for students",
+      "news_msg": "Don't show this message today",
+      "transborder_title": "Cross-border Server",
+      "transborder_msg": "<p><b>Use Cross-border Media Cloud Server</b></p><p>Under normal circumstances, Hong Kong, Macau and Malaysia users will use the \"EVI International Media Cloud Server\" by default. However, in some special cases, such as Hong Kong / Macau / Malaysia users watch the videos via the China Mainland network services, there will often be a \"stuck\" situation. As long as this setting is turned on, the performance of video playback will be greatly improved.</p>",
+      "loading": "Loading...",
+      "failed_to_load": "Failed to load",
+      "busy": "Server is busy, please try again later",
+      "header_busy": "Sorry, the server is busy"
+    },
+    "title": {
+      "courseware_name": "Resource Name：",
+      "Paired": "Paired",
+      "learning_activities": "Learning activities",
+      "course_numer": "Preset number of resource",
+      "hide_courseware": "Hide Selected Resource(s)",
+      "display_courseware": "School-based Resources",
+      "courseware_list": "Resource list",
+      "courseware_content": "Resource content",
+      "classify": "Article classification",
+      "searchResult": {
+        "resultAbout": "Related",
+        "resultAfter": "Publish Date - Latest",
+        "resultBefore": "Publish Date - Oldest"
+      },
+      "courseSort": {
+        "sortDefault": "The oldest comes last",
+        "sortAll": "All",
+        "sortASC": "Date order",
+        "sortDESC": "Date in reverse order"
+      },
+      "evi_resource": "EVI Resource:",
+      "school_resource": "School Resource:",
+      "school_keyword": "School Keywords:"
+    },
+    "error": {
+      "wrong_pw": "Wrong Password",
+      "cannot_use_old_pw": "Cannot use old password",
+      "confirm_pw_error": "Confirm password not correct",
+      "submit_fail": "Submit Fail"
+    },
+    "page": {
+      "popup": "各位親愛的家長：<br><br>由於疫情尚未明朗，EVI的辦公時間改為早上9時45分至下午5時15分，直至另行通知，如有任何查詢，歡迎電郵至cs@evi.com.hk，或於上述時間致電2114 0333，敬請留意，謝謝。"
+    },
+    "select": {
+      "resource": "EVI Videos",
+      "picture": "Pictures",
+      "teach_guide": "Teaching Guides",
+      "download": "Download",
+      "img_real": "Photo",
+      "jttw360": "jttw360",
+      "worksheet": "Worksheets",
+      "project": "Projects",
+      "video": "Videos",
+      "audio": "Audios",
+      "document": "Others",
+      "mix": "Second creation"
+    }
+  },
+  "otherPage": {
+    "about": "<h1>About Us</h1><p>EVI Services Limited was established in 1999. It is the first IT technology company to successfully promote online learning in pre-school institutions. It is also a pre-school in Hong Kong. The largest information technology service provider in the health care market. We have always used the advantages of information technology to provide kindergarten teachers, parents and students with a variety of multimedia coffins that are diversified and kept up to date.</p><h3 > Injecting new elements of creative learning to extend learning power to home</h3><p>The EVI Children's Education Information Network has two major platforms - School Dropout and Administration Platform and Children and Parents' Corner. The School Dropout and Administration Platform has a strong learning resources library and a school administration system to support the dropout and administration of teachers. It is connected to the Children and Parents' Corner to enable parents to have fun with their children at home. Reading and learning, revisiting what the teacher has taught in the classroom, consolidating the child's understanding of the content of dropping out of school, and extending the learning motivation to the home. At present, EVI has provided services to more than 300 kindergartens and 60,000 families. It has gained certain recognition in the education sector. In addition to providing online education courses, our professional team provides a variety of administrative system management services, hardware support, web page production, and teacher computer training to provide one-stop support services for schools, parents and students. </p><h3>New developments in tablet dropouts</h3><p>The use of tablet dropouts has become a new development direction in the global education community, and has begun to be integrated into the dropout of kindergartens, suitable for schoolchildren. A variety of interesting grouping activities make learning more interesting and interactive. EVI is also actively cooperating with the pace of the times and market needs. In 2013, the tablet EC-Pad was launched. EC-Pad integrates the dropout and administrative resources of the current EVI online dropout platform, and provides a large number of learning game apps to enable students to The game of the subject is interactively learned, and the progress of the study is recorded immediately, making the game more meaningful. </p><h4>The debut of EC-Pad marks the beginning of a new milestone for EVI, and the tablet PC will be an important platform for EVI future courses and system development. Let us welcome multimedia tablets together with everyone. Learn the new generation! </h4><h3>School-based Chemistry Administration System</h3><p>EVI's School Dropout and Administration Platform is equipped with a powerful academic administration system such as Attendance Management, Evaluation Management and Books Management, etc., the system can organize and apply the input data for teachers, provide data analysis, and assist teachers to easily handle daily academic administration. With the support and advice given by the school, our academic administration system has become increasingly mature, and it has been successfully implemented in various kindergartens over the years, and has gradually been recognized by users. </p><p>With the debut of EC-Pad, teachers can use EC-Pad's built-in mobile version of the academic administration system to more easily and quickly handle various administrative tasks through Cloud Computing. For example, teachers can use the Attendance Management system in EC-Pad to instantly name students; or through the Evaluation Management system, they can immediately input scores, comments and assessments for students. All students' attendance and evaluation records will be automatically uploaded to School dropout and administrative platform, teachers can print relevant reports for analysis and archiving, simplify work steps and improve efficiency. </p><h4>EVI's academic administration system, in conjunction with EC-Pad and cloud technology, can greatly enhance the effectiveness, flexibility and reliability of each system, and combine them into the best administrative management model to simplify traditional and arduous learning. Work to bring a new user experience to the teacher! </h4><h3>Promoting parental education and promoting harmonious parent-child relationship</h3><p>EVI's Children and Parents' World is a website of a size that will create a quality parent-child interaction time. Apart from this, we have been implementing various parent-child activities from time to time. In 2011, we also organised the Kissing Children and Happy Family Scheme with the Hong Kong Family Education Institute. This program aims to promote parental education and promote harmonious parent-child relationship. Through a series of parent lectures and large parent-child activities, we share the magical method of managing children with our parents and let everyone enjoy the fun of family activities. The family relationship enables children to grow healthily and happily. </p>",
+    "contact": {
+      "title": "Contact Us",
+      "detail": {
+        "hk": "Parent Enquiry：(852) 2114 0333<br>School Enquiry：(852) 2187 3090<br>Fax：(852) 2187 3094<br>Office Hour：9:00 – 18:00 (Mon-Fri)<br>Email：cs@evi.com.hk<br><br>EVI Services Limited<br>Rm1101, 11/F, Skyway Hse North Blk, 3 Sham Mong Rd, Tai Kok Tsui, KLN",
+        "my": "Parent Enquiry：012-700 8362<br>Office Hour：8:30am - 5:30pm (Mon-Fri)<br>Email：learningboxedu@gmail.com<br><br>EVI Services Limited / DMT NETWORKS SDN. BHD. (876422-P)<br>No. 2-2, Pusat Perdagangan One Puchong, Jalan OP 1/6 , Off Jalan Puchong, 47160 Puchong, Selangor Darul Ehsan. Malaysia",
+        "cn": "Parent Enquiry：(020) 3846 8591<br>Fax：(020) 3846 8457<br>Office Hour：9:00 – 18:00 (Mon-Fri)<br>Email：gzevi@evi.com.hk<br><br>广州益贝儿信息科技有限公司<br>广州天河区龙口东路129号龙泽商业大厦13A-02室"
+      }
+    },
+    "disclaimer": "<h1>Disclaimer</h1><p>EVI Services Limited / evi.com.hk<br>Disclaimer</p><p>This announcement (except as otherwise stated) applies to EVI Services Ltd. . All 'we' and 'the company' in the statement refer to the company related to EVI Services Ltd. </p><p>Disclaimer<br>This announcement applies to:</p><p>(a) Use by EVI Services Ltd. via 'www.evi.com.hk' ('EVI Website') Any service provided (EVI service). </p><p>(b) Information stored or receivable by any associated server operated by EVI Services Ltd. (collectively referred to as 'EVI Server') ('This Information'); and</p> <p>(c) You obtain or obtain any goods or services ('user') through the server. </p><p>This announcement is exempt from EVI Services Ltd. and its affiliates, employees, agents; contractors and other third parties providing information (collectively 'EVI'). Responsibility for any use of information, goods and services. </p><p>2. Copyright<br>This information is protected by intellectual property laws (including but not limited to laws protecting copyright). If the information is downloaded, copied, transmitted, printed, stored or otherwise used without the consent of the rights holder, the user may infringe copyright laws. The user's responsibility is to decide whether or not to violate the copyright law. </p><p>3. General Disclaimer<br>EVI expressly disclaims all of the following responsibilities, representations or warranties to the extent permitted by law:</p><p>(a) Brought by EVI Services or this information Regarding quality, use, use, accuracy, time limit or suitability. </p><p>(b) Obtain, offer or obtain any goods or services through the EVI server or based on this information. </p><p>(c) Whether the server or the message will not be interrupted or an error will not occur. This information does not contain any viruses, or polluting or destructive qualities. </p><p>(d) This information does not cause undesired or disgusting consequences to the user or other person. </p><p>(e) This information results in an error, omission, or misrepresentation. EVI Services Ltd. does not endorse or recommend any person, organization, name, product or service provided by this information. This information does not appear to be an opinion or opinion of EVI Services Ltd. Unless expressly stated in writing, EVI Services Ltd. will not be a contractor in any transaction through the EVI server or the information user and other third parties. </p><p>4. Restrictions on Liability<br>Under the permission of the law, EVI Services Ltd. will not be responsible for users or other persons due to tort law, contract law, statute law or other forms (including but not limited to Negligence, breach of contract, libel and infringement of intellectual property rights.</p><p>(a) Direct losses caused by</p><p>(b) Corresponding or indirect losses (including but not limited to income or profits) Loss)</p><p>(c) The user allows, or causes, other persons, or the responsibility of other persons through the information or EVI services. </p><p>Under the limitations of the foregoing, EVI Services Ltd. will not be responsible for users, or other persons, statutory bodies, illegal organizations or competent authorities, directly or indirectly caused by the advent of the millennium. Responsibility for EVI service or function interruption, delay, malfunction or failure to perform. </p><p>5. Confidentiality <br>EVI Services Ltd. does not guarantee (and is not responsible for) confidential information or data transmitted by the EVI website and EVI services in private or other forms. And <br>EVI Services Ltd.'s policy is to take reasonable steps to maintain confidentiality. </p><p>(Please refer to EVI Services Ltd.'s policy on personal data from time to time)<br>(Please check the current version). </p><p>6. User Responsibilities<br>Because EVI Services Ltd. allows users to access information, including EVI websites, EVI servers and EVI services, and users agree:</p><p >(a) No copyright will be allowed or allowed to be violated;</p><p>(b) This information will not be used, or the user may not use the EVI website, EVI server and EVI service as illegal, improper, not The purpose of ya or 诽谤. </p><p>(c) Take all steps to ensure that this information does not harm the user's information or system. </p><p>(d) EVI Services Ltd. conducts research to investigate the use of this information. </p><p>(e) The disclaimer and limitation of liability referred to in this announcement regarding EVI Services Ltd. and the current personal information on EVI Services Ltd. </p><p>7.Legal and Partitioning<br>This announcement is governed by the laws of Hong Kong and each part of this notice may only be applied to the extent permitted. If any jurisdiction prohibits or does not enforce any part of this announcement, only those parts that are prohibited or unenforceable are nullified in that jurisdiction. However, it does not mean that other parts of this announcement are not effective in other jurisdictions, nor does it affect the effectiveness of their prohibition or enforcement. Although this disclaimer is written in Chinese, it is based on the English version. If there is a difference between the Chinese and English versions, the English version shall prevail. </p><p>Security Statement<br>All 'we' and 'the company' in this statement (other than the statement) refer to the relevant companies within EVI Services Ltd. <br>Although the Internet is not a secure communication environment in nature, it can enhance its security by applying appropriate technologies. This is an example of the company's approach. However, the security of the Internet is not a purely technical issue. The common sense and customary measures of personal and transaction data security are equally important. 'Hacker' intrusion into the system must go through a 'gate', which is often caused by negligence in the transmission of confidential documents or in the processing of confidential data such as passwords and personal identification codes. . Therefore, users must be extremely careful to protect these files and data. <br>The company is very cautious about security issues and strictly keeps all personally identifiable information obtained from users of the company's website. In addition to the use of firewalls and other sophisticated equipment, the company also provides and maintains the following measures to protect our systems, information and data from accidental or malicious damage. </p><p>*Safety Standards<br> The company adheres to international standards to ensure complete transactions and to protect confidential information. These standards are related to (i) business activities and information privacy practices; (ii) transaction integrity and (iii) information protection. </p><p>*Internal guidance for obtaining personally identifiable information<br>All employees of the company follow the company's internal guidelines for obtaining personally identifiable information. The guidelines are designed to limit the access to personal data only if they have legitimate needs. Those who have access to this information. </p>",
+    "privacy": "<h1>Privacy Policy</h1><p>Privacy Policy and Personal Data Collection Statement All 'we' and 'the company' in this statement (other than the statement) refer to EVI Services Ltd.</ p><h2>I. Privacy Policy Statement</h2><h3>Our Commitment</h3><p>The Company is committed to properly handling personal data to protect the privacy of its customers. We therefore ensure that the policies and practices in the collection, use, retention, transmission and access of personal data comply with the requirements of the Personal Data (Privacy) Ordinance (Chapter 486 of the Laws of Hong Kong). </p><h3>Types of personally identifiable information collected</h3><p>You may be asked to provide your personally identifiable information, including but not limited to your name, gender, age, telephone number, email address And residential address, etc. Refusal to provide such information may prevent you from accessing certain content on this website or cause us to be unable to process any application or request you submit, or may prevent you from achieving the purpose of browsing. If you are not 18 years of age or older, you must submit your personally identifiable information to the company with the consent of your parent or guardian. </p><h3>Use of personally identifiable information collected</h3><p>The specific purpose of your personally identifiable information may be set out in Part II of the Company's Personal Information Collection Statement below. (especially points (i) and (vi) of the third paragraph of Part II). </p><h3>Data Retention</h3><p>If you are a paid user, we will retain your personal identity submitted to us through the Internet, forms or other means during the service period after the expiration of the service. Information for a reasonable period of time. </p><h3>Disclosure</h3><p>Under normal circumstances, we will not disclose your information to third parties. For details, please refer to the Personal Information Collection Statement of Part II of the Company below. </p><h3>Access and Amendment Information</h3><p>If you wish to access and/or amend your personally identifiable information submitted to us through the Internet, forms or other means, please notify us in writing The company's data protection director. After each successful completion of the access, the company may charge you a reasonable fee at that time. However, if access to the data is made for a reasonable and reasonable correction, such fees will be waived. </p><h3>Security</h3><p>We use a variety of encryption technologies to transmit your personal data over the Internet, which is only accessible to our authorized staff. Based on the nature of the Internet, we will do our best to ensure the security of data transmission. </p><h3>Collection of personally identifiable information</h3><p>When you visit this website, it may trigger the use of cookies. A cookie is a small file that can be stored on a web user's computer to obtain configuration information and analyze the browsing habits of web users. They allow you to browse the site again without having to re-register and are often used to track the user's propensity on the subject matter of the site. You may refuse to accept cookies (by modifying the Internet options or browsing settings of your computer system), but in doing so, you may not be able to use or activate certain features provided on this website. </p><h3>Online Services</h3><p>We may launch an online store or service provider operated by a third party merchant on this website. If you want to use or order any of the services or merchandise provided by any of the above merchants, please note that any information you submit will not be controlled by the company once it has been transferred to the merchant, and therefore it is not owned by the company. The scope of protection. </p><h3>Enquiry</h3><p>If you have any enquiries about our Privacy Policy Statement, please feel free to contact us. The address is as follows:</p><p>3 Sham Mong Road, Tai Kok Tsui, Hong Kong</p><p>Room 1101, 11/F, North Block, Ka Wing Building</p><h2>II. Personal Information Collection Statement</h2><p>As a user of our company or a visitor or user of our website, you may be required to apply to and/or continue to use a service and/or product ('the service') The company provides your personal data (hereinafter referred to as 'personal data'). If your personal information is incomplete or incorrect, we may not be able to provide or continue to provide this service to you. </p><p>We will keep your personal information confidential at all times. The Company's policies and practices will be consistent with the Personal Data (Privacy) Ordinance (the “Ordinance”) and the provisions of this statement regarding the collection, use, retention, disclosure, transfer, security and access of personal data. </p><p>You also agree that any personal data provided by you to the Company may be used or retained by the Company for the following purposes and other <br> purposes or legal requirements as agreed by the parties from time to time: /p><p>(i) Providing the service, including establishing a platform and app account, providing company information and school notices, etc.;</p><p>(ii) processing or related to the service Any of your benefits;</p><p>(iii) analyze, verify and/or check your credit, payment and/or status in connection with the provision of the service;</p><p>(iv ) processing any payment instructions, direct debit payment facilities and/or credit facilities requested by you;</p><p>(v) enabling your account related to the service to perform daily operations and/or unliquidated accounts The money can be recovered. </p><p>(vi) enables us to fulfill our obligations to connect with the parties to the communication or to abide by other industry practices. </p><p>According to the regulations, you have the right to:</p><p>(i) check if we hold your personal data;</p><p>(ii) consult with the company Your personal data;</p><p>(iii) ask the company to correct any inaccuracies in the personal data;</p><p>(iv) Frequently check the company's policies and practices related to personal data And determine the type of personal data held by the company. In accordance with the regulations, we are entitled to a reasonable fee when processing personal data inquiry requests. All inquiries or corrections to personal data or requests for policy and enforcement practices and the type of personal data held should be made in writing and sent to the Data Protection Officer of the Company. </p><p>Please note that this statement may be amended from time to time without notice. The effective date of the revised statement and amendment will be posted on our website. Modifications have no ability to trace back to the past. </p><p>If there are any outstanding issues in this clause, the company will handle the personal data collection statement, privacy policy or other relevant regulations and subsequent amendments. </p><p style={{ textAlign: =right }}>Update Date: June 2019</p>"
+  },
+  "articleInfo": {
+    "scoring": "Voting and Scoring",
+    "title": "Do you find this article attractive to you? Please evaluate the score. ",
+    "star": "Score",
+    "vote": "Vote",
+    "vote1": "Average",
+    "vote2": "Consonance",
+    "vote3": "Excellent",
+    "vote4": "Interesting",
+    "vote5": "Useful",
+    "vote6": "Recommend",
+    "questions": "Exam you",
+    "answer": "(Correct Answer)",
+    "comment": "Comment",
+    "btn": "Submit"
+  },
+  "logout": "Logout",
+  "next_step": "Next",
+  "select_grade": "Please select the grade",
+  "pHome": {
+    "page": "pHome",
+    "title": {
+      "course": "Parent Course",
+      "parentChild": "Parent-child Informtaion",
+      "news": "Latest News",
+      "activity": "Highlights"
+    }
+  }
+}

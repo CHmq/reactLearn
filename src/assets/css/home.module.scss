@@ -1,0 +1,59 @@
+.customCol {
+  :global {
+    @media (min-width: 1200px) {
+      .ant-col-xl-5 {
+        width: 20%;
+        padding: 20px;
+      }
+    }
+  }
+}
+.rows {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.home {
+  max-width:1200px;
+  margin : 0 auto;
+}
+.bgCover {
+  background-image: url("../image/background.png");
+  background-size: "100% 100%";
+  min-height: 100vh;
+}
+
+.bgHeight {
+  height: 500px;
+}
+
+@media (max-width: 992px) {
+  .bgHeight {
+    height: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .row {
+    padding: 2.75rem 0;
+  }
+}
+.resource {
+  width: 100%;
+  padding-bottom: 100%;
+}
+.resource > img {
+  position: absolute;
+  object-fit: contain;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  width: 100%;
+}

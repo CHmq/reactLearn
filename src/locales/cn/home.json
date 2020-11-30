@@ -1,0 +1,857 @@
+{
+  "home": {
+    "page": "home",
+    "language": "zh",
+    "publicMsg": {
+      "LocationNotice": {
+        "title": "切换地区",
+        "content": "「{_location}」地区已经推出，立即切换观看适用于你所在位置的内容。",
+        "confirm": "立即切换"
+      },
+      "header": {
+        "loginbtn": "登入",
+        "guestbtn": "会员登入",
+        "schoolbtn": "学校登入",
+        "registerbtn": "注册成为会员",
+        "searchTips": "搜索内容",
+        "rankingList": "龙虎榜",
+        "history": "观看记录",
+        "favorite": "我的最爱",
+        "award": "我的奖赏",
+        "parents": "家长版",
+        "child": "儿童版",
+        "translations": "多语言",
+        "accomplish": "学习成果",
+        "languageList": {
+          "translations": "多语言",
+          "locationLanguage": "语言",
+          "location": "其他地区",
+          "locations": {
+            "hk": "中国香港",
+            "my": "马来西亚",
+            "hk_GFW": "中国香港(跨境)",
+            "cn": "中国大陆",
+            "mo": "中国澳门",
+            "all": "全部"
+          }
+        }
+      },
+      "footer": {
+        "about": "关于我们",
+        "liaison": "联络我们",
+        "agreement": "隐私条款",
+        "Disclaimer": "免责条款"
+      },
+      "drawer": {
+        "PleaseSelectChild": "请选择子女账号继续浏览",
+        "ChangePword": "修改密码",
+        "LogoutWord": "退出",
+        "charttitle": "过去7天自学时间",
+        "chartmin": "分钟",
+        "chartweek": "日期",
+        "awardtitle": "成就",
+        "more": "更多成就资料",
+        "LogoutTitle": "你确定要注销吗？",
+        "Btncancel": "取消",
+        "Btnconfirm": "确认",
+        "titleTransfer": "帐号转移"
+      },
+      "avatar": {
+        "tip": "请上传新的头像",
+        "upload": "上传头像",
+        "preview": "预览"
+      },
+      "role": {
+        "firstLogin": {
+          "title": "登录子女帐号",
+          "form": {
+            "username": "请输入用户名",
+            "pwd": "请输入密码"
+          },
+          "rememberMe": "记住我",
+          "forgetPwd": "忘记密码",
+          "loginIn": "登入",
+          "fbLoginIn": "Facebook 登入",
+          "wxLoginIn": "Wechat 登入",
+          "emailVerify": "家长电邮验证",
+          "phoneVerify": "家长手机验证",
+          "LoginTipsRegister": {
+            "or": "或",
+            "tips": "还未注册？请立即",
+            "goParent": "注册家长帐号"
+          },
+          "msg": {
+            "success": "绑定成功!将以子女登入身份浏览",
+            "failed": "登录失败,工程师正在排查错误,请稍后再试!",
+            "noLogIn": "登录失败,无权登录!",
+            "accountError": "帐户或密码错误，请重试。",
+            "userNull": "该用户不存在",
+            "pwdNull": "密码不能为空!",
+            "accountBind": "请登入或注册家长帐户进行绑定",
+            "errorDelay": "发生了我们未知错误!请稍后重试...或者您可以提供给客服错误原因来告知我们.",
+            "welcome": "登入中，欢迎进入EVIGarten！"
+          }
+        },
+        "edit": {
+          "title": "家长管理",
+          "family": "家庭 :",
+          "settings": {
+            "currentAccout": "当前帐户",
+            "userInformation": "个人资料",
+            "isBinding": "已绑定",
+            "bind": "绑定",
+            "enter": "进入",
+            "kidVer": "儿童版",
+            "parentVer": "家长版",
+            "settings": "设定",
+            "join": "加入",
+            "beConfirmed": "待确认"
+          },
+          "parent": {
+            "parentTitle": "家长",
+            "teacher": "老师帐户",
+            "role": "管理员",
+            "father": "父亲",
+            "mother": "母亲",
+            "maternal_grandfather": "爷爷",
+            "maternal_grandmother": "奶奶",
+            "paternal_grandfather": "公公",
+            "paternal_grandmother": "婆婆",
+            "child": "子女",
+            "other": "监护人及其他"
+          },
+          "kid": {
+            "kidTitle": "子女",
+            "state": {
+              "isBinding": "已绑定",
+              "unbound": "未绑定"
+            },
+            "role": {
+              "isBinding": "正式帐户",
+              "unbound": "试用帐户"
+            }
+          },
+          "addKid": "新增子女",
+          "addFamilyKid": "邀请家庭成员加入",
+          "ensure": "确定",
+          "userEdit": {
+            "title": "修改个人资料",
+            "name": "姓名",
+            "gender": {
+              "title": "性别",
+              "M": "男",
+              "F": "女"
+            },
+            "relation": {
+              "title": "关系",
+              "FATHER": "父亲",
+              "MOTHER": "母亲",
+              "MATERNAL_GRANDFATHER": "爷爷",
+              "MATERNAL_GRANDMOTHER": "奶奶",
+              "PATERNAL_GRANDFATHER": "公公",
+              "PATERNAL_GRANDMOTHER": "婆婆",
+              "child": "子女",
+              "OTHER": "监护人及其他"
+            },
+            "save": "保存"
+          },
+          "parentEditMes": {
+            "accountNull": "目前没有选中帐号,请重试",
+            "accountCurrent": "已经是当前帐号了!",
+            "change": "切换",
+            "bind": "绑定",
+            "Coming": "成功，即将进入",
+            "parents": "「家长版」",
+            "kids": "「儿童版」",
+            "home": "主页"
+          }
+        },
+        "tipsAddKid": {
+          "title": "新增其他子女",
+          "addTrialAccout": "新增子女试用帐户",
+          "addExistAccout": "新增 EVIGarten 学校会员帐户",
+          "addExistAccoutRemark": "此选项需有由学校派发的 EVIGarten 帐户登入信"
+        },
+        "addKid": {
+          "form": {
+            "f_name": "姓名",
+            "l_name": "姓",
+            "gender": {
+              "M": "男",
+              "F": "女"
+            },
+            "grade": "年级"
+          },
+          "title": "新增子女试用帐户",
+          "addAccount": "新增",
+          "return": "返回"
+        },
+        "addParent": {
+          "title": "新增家庭成员",
+          "form": {
+            "msg_tips": "请选择方式添加家庭成员(只选择输入对方电邮地址或手机号码)",
+            "email": "请输入邮箱",
+            "tel": "请输入手机号码",
+            "or": "或",
+            "relationship": "关系",
+            "FATHER": "父亲",
+            "MOTHER": "母亲",
+            "MATERNAL_GRANDFATHER": "爷爷",
+            "MATERNAL_GRANDMOTHER": "奶奶",
+            "PATERNAL_GRANDFATHER": "公公",
+            "PATERNAL_GRANDMOTHER": "婆婆",
+            "child": "子女",
+            "OTHER": "监护人及其他"
+          },
+          "save": "新增家庭成员",
+          "return": "返回"
+        }
+      },
+      "search": {
+        "placeholder": "搜寻 EVI 资源"
+      },
+      "resource_type": {
+        "jttw360": "探索360",
+        "jttw": "通识漫游",
+        "learn": "自学小天地",
+        "news": "时事望远镜",
+        "science": "幼儿科学",
+        "treehouse": "绘本儿歌",
+        "storybook_video": "故事书",
+        "song_english": "儿歌(英文)",
+        "song_zh": "儿歌(中文)",
+        "project": "探索小活动",
+        "worksheet": "工作纸",
+        "mc": "MC",
+        "img_real": "实物图",
+        "img_cartoon": "卡通图",
+        "img_line_graph": "线图",
+        "audio": "声音档",
+        "video": "影片",
+        "download": "下载档",
+        "document": "文件档",
+        "teach_guide": "教案",
+        "mix": "二次创作"
+      }
+    }
+  },
+  "loading": {
+    "page": "logout",
+    "language": "zh",
+    "publicMsg": {
+      "register": {
+        "title": "{full_name} 家长，欢迎您!!!",
+        "content": "请填写您的资料以进行家长验证程序。",
+        "procedure": {
+          "code": "填写家长资料",
+          "verify": "验证",
+          "done": "完成"
+        },
+        "type": {
+          "email": "邮箱",
+          "phone": "手机号码",
+          "facebook": "Facebook"
+        },
+        "form": {
+          "email": "邮箱",
+          "pwd": "密码",
+          "confirmpwd": "确认密码",
+          "sex": "性别",
+          "man": "先生",
+          "lady": "女士",
+          "name": "家长名称",
+          "surname": "姓氏",
+          "phone": "手机号码",
+          "occupied": "已被注册",
+          "occupied_kid": "电邮地址已在「内联网」注册",
+          "verifyMsg": {
+            "emailMsg": "请输入邮箱",
+            "emailWarnMsg": "请输入正确的邮箱格式",
+            "pwdMsg": "请输入密码",
+            "pwdWarnMsg": "请输入6~30位包含大小写字母及数字的密码",
+            "confirmMsg": "请再次输入密码",
+            "confirmWarnMsg": "两次输入的密码不一致",
+            "name": "名字不能为空",
+            "surname": "姓氏不能为空",
+            "nameMsg": "请输入您的名称",
+            "surnameMsg": "请输入您的姓氏",
+            "phoneMsg": "请选择与您的手机号码相对应的区号",
+            "phone": "请输入手机号码",
+            "phoneWarnMsg": "请输入正确的手机格式"
+          },
+          "btn": "下一步",
+          "return": "返回"
+        },
+        "verify": {
+          "code": "验证码",
+          "codeMsg": "请输入接收到的验证码",
+          "codeWarnMsg": "请输入6位数字的验证码",
+          "sendbtn": "重新发送",
+          "resendbtn": "秒后重新发送",
+          "btn": "验证"
+        }
+      }
+    },
+    "content": {
+      "titleleft": "自主探索",
+      "contentleft": "EVIGarten以「自主探索‧学会学习」为理念，通过AI人工智能建议幼儿观看感兴趣的内容，鼓励进行自主探索学习。",
+      "titlemiddle": "多元课程",
+      "contentmiddle": "配备了精心编排的多元课程，包括带领幼儿探索世界的「探索360」；提供幼儿园常用十大主题的「生活知识」，另外还有其他幼儿多媒体课程内容。",
+      "titleright": "学习历程",
+      "contentright": "为家长和幼儿提供完善的学习历程档案，让家长更了解小朋友的学习兴趣和步伐，通过可爱的学习记录形式，推动幼儿主动学习的动力。",
+      "morebtn": "查看更多"
+    },
+    "login": {
+      "parentLogin": {
+        "welcomeTips": {
+          "oneLine": "{name} 家长,欢迎您",
+          "towLine": "请填写您的资料以进行家长验证程序"
+        },
+        "loginIn": "登入",
+        "ParentTipsRegister": {
+          "or": "或",
+          "tips": "未有家长帐户?",
+          "goParent": "立即登记",
+          "return": "返回"
+        }
+      }
+    },
+    "forget": {
+      "infortitle": "输入资料",
+      "title": "验证",
+      "gettitle": "请输入已登记的电邮/手机号码",
+      "inputrule": "请输入电邮/手机号码",
+      "verifybtn": "获取验证码",
+      "verifytitle": "收到验证码",
+      "verifynumber": "验证码",
+      "verifyrule": "请输入验证码",
+      "getverifybtn": "获取验证码",
+      "old_password": "旧密码",
+      "password": "密码",
+      "confirm_password": "确认密码",
+      "passwordnull": "请输入密码",
+      "passwordrule": "请输入6~30位包含大小写字母及数字的密码",
+      "passwordconfirm": "请再次输入密码",
+      "passwordbtn": "重置密码",
+      "modify": "密码修改成功!将回到登陆界面",
+      "goBack": "重新回到步骤一",
+      "sendCodeSuccess": "发送验证码成功",
+      "sendCodeFailed": "发送验证码失败",
+      "pwdRevise": "密码修改失败",
+      "cancel": "取消"
+    },
+    "course": {
+      "title": "生活知识",
+      "content": "十大主题包括交通、动物、大自然、社区、健康与卫生、学校、环保、食物、个人与家庭、帮助我们的人，让小朋友按兴趣学习更多不同知识，另更辅有「MC题」、「工作纸」，和「专题探索」。"
+    },
+    "explore": {
+      "title": "探索360",
+      "content": "配合动画故事、思考题、游戏、德育等元素，鼓励学童多探索、多思考，从而建构知识。"
+    },
+    "festival": {
+      "title": "节日",
+      "content": "内容包括「圣诞节」、「新年」和 「中秋节」等动画，供老师在课堂上使用，或让家长和小朋友在家一起观看，让小朋友对不同的节日有更多认识。"
+    },
+    "chinese": {
+      "title": "语文(中文)课程",
+      "content": "根据十大主题精心制作了不同的语文版故事动画，提供了繁、英语及普通话三个版本。观看动画后，小朋友可完成「做练习」同「动动脑」，巩固知识和培养自学能力。"
+    },
+    "change": {
+      "title": "文字变变变",
+      "content": "根据单字的常用度及难易度，选取了60个幼稚园的常用字，以生动的动画介绍它们的读音、笔顺及文字的演变，同时提供富趣味的配词游戏。"
+    },
+    "story": {
+      "title": "德育小故事",
+      "content": "讲述古代名人故事及日常生活的经历，透过有趣的小故事，培养幼儿各种良好的品德，建立正确的价值观，每个单元围绕不同的品德主题。"
+    },
+    "phonics": {
+      "title": "Phonics",
+      "content": "透过动画故事、儿歌及简单动作，让幼儿轻松学习26个的英文拼音，而每个拼音都配合不同的词汇供幼儿练习。"
+    }
+  },
+  "achievements": {
+    "page": "achievements",
+    "language": "zh",
+    "content": {
+      "titleImg": "请选择需要上传的图片",
+      "titlerelationship": "亲子关系",
+      "nowatch": "未有参与亲子观看",
+      "lesshalfwatch": "亲子观看时间少于一半",
+      "halfmorewatch": "亲子观看时间达一半或以上",
+      "fullwatch": "每次均陪同子女观看",
+      "titleTime": "今日使用时间",
+      "min": "分钟",
+      "week": "7天",
+      "month": "30天",
+      "titleAbility": "脑力大挑战能力",
+      "Logintime": {
+        "today": "今天",
+        "week": "过去7天",
+        "month": "过去30天"
+      },
+      "medal": "如何取得鼓励奖牌？",
+      "bronzeMedal": "完成观看课程的50-60%内容",
+      "silverMedal": "完成观看课程的61-80%内容",
+      "goldMedal": "完成观看课程的81-99%内容",
+      "diamond": "完成观看课程的100%内容",
+      "gen_cert_job": "我的电子证书",
+      "medal_msg": "未有足够的鼓励奖牌获取电子证书，请继续努力！",
+      "loading_msg": "正在为你准备电子证书，请稍后。"
+    }
+  },
+  "info": {
+    "page": "info",
+    "language": "zh",
+    "content": {
+      "Message": {
+        "title": "家长留言",
+        "btnword": "我想留言",
+        "tiptitle": "请输入文字",
+        "commentsword": "预设评论",
+        "Submitbtn": "提交"
+      },
+      "Card": {
+        "Sharebtn": "其他小朋友专题探索",
+        "backbtn": "返回"
+      }
+    }
+  },
+  "myFavorite": {
+    "page": "favorite",
+    "language": "zh",
+    "content": {
+      "title": "我的最爱"
+    }
+  },
+  "history": {
+    "page": "history",
+    "language": "zh",
+    "content": {
+      "title": "观看记录"
+    }
+  },
+  "schoolCourse": {
+    "btn_description": "教学重点",
+    "btn_video": "影片介绍",
+    "btn_more": "查看更多",
+    "btn_retract": "收回",
+    "type_all": "所有类别",
+    "type_course": "课程",
+    "type_video": "学习资源",
+    "type_poject": "探索小活动",
+    "title_progress": "进行中",
+    "title_soon": "即将推出",
+    "title_finish": "已完成",
+    "menu_edit": "编辑课程",
+    "menu_change_cover": "更换封面",
+    "menu_repot": "检视学生报告",
+    "menu_delete": "删除",
+    "msg_noData": "学校正在编排新课程，请耐心等候"
+  },
+  "course_1": {
+    "page": "course_1",
+    "language": "zh",
+    "content": {
+      "traffic": "交通",
+      "videoTitle": "课程影片介绍",
+      "ModalTitle": "请选择需要上传的图片/影片",
+      "fileTitle": "请上传新的档案",
+      "setbtn": "设置",
+      "changebtn": "更改封面",
+      "reportbtn": "报告",
+      "deletebtn": "删除",
+      "see": "观看",
+      "seen": "已观看",
+      "Breadcrumb": {
+        "home": "首页",
+        "lifeKnowledge": "生活知识"
+      },
+      "option": {
+        "grade": "请选择年级",
+        "studentEdit": "学生管理",
+        "calssAdd": "新增课程",
+        "tabtitle": "课程报表",
+        "favouriteY": "已Like",
+        "favouriteN": "立即like"
+      },
+      "edit": {
+        "banner": "更改背景",
+        "video": "更改影片",
+        "logo": "更新",
+        "background": "更改背景",
+        "tipeditor": "编辑",
+        "tiptitle": "标题",
+        "tiptext": "正文",
+        "tipbtn": "提交"
+      },
+      "delete": {
+        "file": "删除封面",
+        "banner": "删除背景",
+        "video": "删除影片",
+        "del_btn": {
+          "title": "删除课程",
+          "del_contant": "你确认要删除",
+          "okText": "确定",
+          "cancelText": "取消 "
+        }
+      },
+      "confirm": {
+        "file": "你确认要删除封面？",
+        "banner": "你确认要删除背景？",
+        "video": "你确认要删除影片？"
+      },
+      "PopupAECoursware": {
+        "Type": "类型",
+        "State": "状态",
+        "Name": "名称",
+        "Resource": "档案类型",
+        "Question": "题目",
+        "File": "文件",
+        "FileSupport": "支援档案",
+        "Coverimg": "封面图",
+        "Coverimgbtn": "上传图片",
+        "CoverimgSupport": "支持档案",
+        "Grade": "年级",
+        "Releasetime": "发布时间",
+        "Endtime": "结束时间",
+        "Teachingfocus": "教学重点",
+        "Keywords": "关键字",
+        "IsDownload": "可下载",
+        "DownloadYes": "是",
+        "DownloadNo": "否",
+        "TITLE": "新加",
+        "btnadd": "添加",
+        "btnsure": "确定",
+        "Radiodocument": "工作纸",
+        "Radioproject": "探索小活动",
+        "RadioResource": "校本资源",
+        "SelectEffective": "有效",
+        "SelectInvalid": "无效",
+        "rulesType": "请选择类型",
+        "rulesStatus": "请选择状态",
+        "rulesName": "请输入名称",
+        "rulesGrade": "请选择年级",
+        "rulesReleasetime": "请选择发布时间",
+        "information": "课件资料",
+        "mix": "二次创作",
+        "file": "课件管理",
+        "deleteItem": "删除档案",
+        "setCover": "设置封面",
+        "mainDelete": "删除课件",
+        "deleteItem_tip": "你确定要删除该档案吗？",
+        "setCover_tip": "你确定要将该图片设为封面图吗？",
+        "mainDelete_tip": "你确定要删除该课件吗？",
+        "video_tip": "可拖拉档案设定影片的先后次序",
+        "maxNum_tip": "增加的影片个数不能超过10个",
+        "video_tab": "影片库",
+        "upload_tab": "上载",
+        "search_placeholder": "搜寻影片资源",
+        "noVideo": "没有影片",
+        "update_sort": "更新排序",
+        "streaming_tootip": "支持串流播放"
+      },
+      "PopupCoursware": {
+        "title": "搜寻课件",
+        "changeItem": "已选择",
+        "Teachingfocus": "教学重点",
+        "btnnew": "新建",
+        "btnbuild": "建立",
+        "edit": "编辑"
+      }
+    },
+    "tabs": {
+      "data": "课程资料",
+      "sort": "课件排序"
+    },
+    "courseData": {
+      "editTitle": "编辑课程",
+      "addTitle": "新增课程",
+      "form": {
+        "name": "课程名称",
+        "namerules": "请输入课程名称",
+        "namenull": "课程名称不能为空",
+        "classname": "请输入课程名称",
+        "publish_time": "发布时间",
+        "end_time": "结束日期",
+        "grade": "年级",
+        "gradenull": "请选择年级",
+        "description": "教学重点"
+      },
+      "RadioGroup": {
+        "all": "全部发布",
+        "schedule": "排程(诙谐)",
+        "arrange": "排成(隐藏)"
+      },
+      "button": {
+        "compile": "编辑",
+        "cancel": "取消",
+        "nextStep": "下一步"
+      }
+    },
+    "courseSort": {
+      "prompt": "可用鼠标拖课件拉先后次序：",
+      "button": {
+        "previous": "上一步",
+        "done": "完成"
+      }
+    },
+    "UploadingFile": {
+      "tip": "上传图片/影片",
+      "fileTip": "上传档案",
+      "toCut": "重新裁剪",
+      "uploadDefaultImg": "或选择背景图片",
+      "btn": "确认上传",
+      "cancel": "取消",
+      "tab_theme": "主题",
+      "tab_frame": "边框",
+      "tab_character": "EVI 角色"
+    }
+  },
+  "coursefinish": {
+    "page": "coursefinish",
+    "language": "zh",
+    "content": {
+      "title": "校本课程",
+      "Completed": "已完成",
+      "backbtn": "返回"
+    }
+  },
+  "festival": {
+    "page": "festival",
+    "language": "zh",
+    "content": {
+      "title": "节日",
+      "Completed": "已完成"
+    }
+  },
+  "knowledgefinish": {
+    "page": "knowledgefinish",
+    "language": "zh",
+    "content": {
+      "title": "生活知识",
+      "Completed": "已完成",
+      "Open": "已解锁物件",
+      "change": "更换此套",
+      "backbtn": "返回"
+    }
+  },
+  "ranking": {
+    "page": "ranking",
+    "language": "zh",
+    "content": {
+      "btnrules": "龙虎榜准则",
+      "time": "更新日期"
+    }
+  },
+  "article": {
+    "page": "article",
+    "button": {
+      "plan": "CEO证书计划",
+      "history": "阅读记录"
+    },
+    "planPopup": {
+      "txt": "<h2>计划理念：</h2><p>家长普遍把子女教育放在很重要的位置，其实家长教育也非常重要，有见及此，EVI 与香港家庭教育学院携手推出「CEO 家长（幼儿教育）证书计划」。本计划设有5个范畴内容，包括情绪管理、行为管理、亲子关系、幼儿健康及幼儿学习，透过不同的实用性文章及视频，鼓励父母做个有能力(Competent)、具效能 (Effective) 及 乐观 (Optimistic)的家长，以提升父母教育子女的能力，并建立更和谐融洽的亲子关系。</p><h2>计划内容：</h2><p>家长于指定日子期间，于EVIGarten阅读本计划的CEO家长文章，并完成评分、投票和考考你，每阅读一篇可获一个电子贴纸。<br />‧储满15个电子贴纸可获三级荣誉证书<br />‧储满25个电子贴纸可获二级荣誉证书<br />‧储满25个电子贴纸及撰写「个人管教子女心得」可获一级荣誉证书</p><h2>重要日期：</h2><p>阅读文章日期：2019年10月14日至2020年4月30日<br>截止提交「个人管教子女心得」日期：2020年5月19日</p>",
+      "record_end_msg": "阅读文章日期：",
+      "submit_end_msg": "截止提交「个人管教子女心得」日期：",
+      "button": {
+        "submit": "提交个人管教子女心得",
+        "view": "查看已上传的档案"
+      }
+    }
+  },
+  "general": {
+    "intranet": "内联网",
+    "coming_soon": "快将推出",
+    "no_more_record": "加载完毕",
+    "lang": {
+      "zh": "繁",
+      "cn": "简",
+      "english": "ENG"
+    },
+    "button": {
+      "confirm": "确定",
+      "cancel": "取消",
+      "yes": "是",
+      "no": "否",
+      "back": "返回",
+      "select_all": "全选",
+      "unselect_all": "全不选",
+      "select_class": "选择班级",
+      "select_course": "选择课程",
+      "remind": "提醒",
+      "customize": "自订",
+      "subtopic": "副题",
+      "details": "查看",
+      "download": "下载",
+      "upload": "上载",
+      "setCover": "设置为封面图",
+      "score": "评分",
+      "submitted": "已提交",
+      "unsubmitted": "未提交",
+      "rated": "已评分",
+      "not_rated": "未评分",
+      "add": "新增",
+      "refresh": "更新",
+      "done": "完成"
+    },
+    "loading": "正在进入，如无法跳转请点击进入。",
+    "form": {
+      "amount_completed": "完成量",
+      "student_name": "学生姓名",
+      "course_name": "课程名称",
+      "resource": "课件",
+      "action": "操作",
+      "suggest": "建议观看时间",
+      "designation": "指定时段开放",
+      "language": "语言",
+      "top": "置顶",
+      "status": "状态",
+      "before": "推出日期前",
+      "after": "推出日期后",
+      "forever": "后永久显示",
+      "whatever": "任何时段开放",
+      "Advanced": "进阶",
+      "lock": "上锁",
+      "hide": "隐藏",
+      "open": "开放",
+      "all": "全部",
+      "unread": "未阅读",
+      "read": "已阅读",
+      "region": "地区",
+      "is_show": "是否显示",
+      "page": "页面"
+    },
+    "msg": {
+      "please_reg": "注册 EVIGarten 以观看更多内容",
+      "please_upgrade": "EVIGarten自主探索學習平台設有1個月、3個月及1年會員計劃，即開放平台上超過20個課程，詳情請致電 (852) 2114 0333 或電郵至 <a href='mailto:marketing@evi.com.hk'>marketing@evi.com.hk</a>",
+      "please_upgrade_cn": "即日起至2020年3月31日，EVI免费开放“在家学习课程”，以达到“停课不停学”。如您想观看更多丰富的内容，需升级为完整版会员，详情请致电（020）38468751 ",
+      "update_success": "修改成功",
+      "update_error": "更新失败，已选择了该背景",
+      "reg_success": "注册成功",
+      "success": "成功",
+      "failure": "失败",
+      "is_parent_join": "父母和你一起观看以下内容吗？",
+      "select_topic": "选择主题",
+      "select_subtopic": "选择副题",
+      "release_settings": "发布设定",
+      "search": "搜索 EVI 资源",
+      "choose_grade": "请选择年级",
+      "enter_text": "请在这里输入文字",
+      "submit_success": "已成功提交",
+      "recommend_size": "建议尺寸",
+      "uploading": "正在上传",
+      "upload_success": "上传成功",
+      "upload_failed": "上传失败,请重试",
+      "no_right": "无权操作,请刷新重试",
+      "login_expired": "登录已过期,请重试",
+      "device_update": "设备已经更新,请刷新重试",
+      "re_register": "已经登出,请重新登陆后重试",
+      "upload_type": "只有允许上载格式 .gif / .jpg / .jpeg / .png / .mp4 / .ppt / .pptx / .ppsx / .mov / .mp3 / .pdf / .doc / .docx / .xls / .xlsx",
+      "upload_type2": "只有允许上载格式 .gif / .jpg / .jpeg / .png / .mp4 / .mov / .pdf",
+      "upload_type3": "只有允许上载格式 .mp4 / .mov",
+      "upload_website": "Website:<br />线上看及可下载: .gif / .jpg / .jpeg / .png / .mp4 / .mp3 / .pdf<br />只可下载: .ppt / .pptx / .ppsx / .doc / .docx / .xls / .xlsx",
+      "upload_app": "APP:<br />线上看及可下载: .gif / .jpg / .jpeg / .png / .mp4 / .mov / .mp3 / .pdf / .ppt / .pptx / .ppsx / .doc / .docx / .xls / .xlsx",
+      "file_size": "文件过大，上传限制为 1GB。 <br><br>如需协助，请联络客户服务主任。 <br><br>查询电话：2114 0333",
+      "not_submitted": "尚未提交",
+      "prohibit_deletion": "此课件已有功课提交，不能删除",
+      "please_check": "本人确定上传到「校本课程」的所有内容，都必须拥有版权及具备相关授权许可。",
+      "comment_msg": "对学生的评分",
+      "news_msg": "今天不再显示此信息",
+      "transborder_title": "跨境服务",
+      "transborder_msg": "<p><b>使用跨境媒体云端服务器</b></p><p>一般情况下，香港丶澳门及马来西亚用户均会预设使用「EVI国际媒体云端服务器」，但在某些特殊情况下，例如香港/澳门/马来西亚用户身处中国内地，透过中国内地网络服务观看课件视频时，很多时会出现「卡」着的情况，但只要启动本设置，便会大大提升视频播放的效能。</p>",
+      "loading": "加载中...",
+      "failed_to_load": "加载失败",
+      "busy": "系统繁忙中 , 请稍后再试",
+      "header_busy": "对不起，系统繁忙中"
+    },
+    "title": {
+      "courseware_name": "课件名称：",
+      "Paired": "已配对",
+      "learning_activities": "学习活动",
+      "course_numer": "预设课件数量",
+      "hide_courseware": "隐藏已选择课件",
+      "display_courseware": "只显示学校课件",
+      "courseware_list": "课件列表",
+      "courseware_content": "课件内容",
+      "classify": "文章分类",
+      "submit_fail": "提交失败",
+      "searchResult": {
+        "resultAbout": "最相关",
+        "resultAfter": "发佈日期 - 新至旧",
+        "resultBefore": "发佈日期 - 旧至新"
+      },
+      "courseSort": {
+        "sortAll": "全部",
+        "sortDefault": "过去排在最后",
+        "sortASC": "日期顺序",
+        "sortDESC": "日期降序"
+      },
+      "evi_resource": "EVI资源：",
+      "school_resource": "学校资源：",
+      "school_keyword": "学校关键字："
+    },
+    "error": {
+      "wrong_pw": "密码错误",
+      "cannot_use_old_pw": "不能旧密码相同",
+      "confirm_pw_error": "两次输入的密码不一致"
+    },
+    "page": {
+      "popup": "各位亲爱的家长：<br><br>由于疫情尚未明朗，EVI的办公时间改为早上9时45分至下午5时15分，直至另行通知，如有任何查询，欢迎电邮至cs@evi.com.hk，或于上述时间致电2114 0333 ，敬请留意，谢谢。"
+    },
+    "select": {
+      "resource": "课件",
+      "picture": "图片",
+      "teach_guide": "教案",
+      "download": "下载",
+      "img_real": "实物图",
+      "jttw360": "探索360",
+      "worksheet": "工作纸",
+      "project": "探索小活动",
+      "video": "影片",
+      "audio": "声音",
+      "document": "文件",
+      "mix": "二次创作"
+    }
+  },
+  "otherPage": {
+    "about": "<h1>关于我们</h1>广州益贝儿信息科技有限公司是一家专业提供线上教育资源平台的科技创新企业，也是香港EVI教育（目前香港学前教育市场上最大型的资讯科技服务机构）在中国内地市场的独家服务承销商。平台产品设有「EVI Garten自主探索学习天地」及「EVI 行政与教学平台」，内容涵盖教学资源、校本课程、各类动画故事及家长资讯等，全面照顾园所老师、家长及幼儿的需要，现正为超过三百间幼儿园及六万个家庭提供服务。<br><br>EVIGarten自主探索学习天地<br><a href=\"https://garten.evifamily.com.cn\" target=\"_blank\">garten.evifamily.com.cn</a><br><br> 友情链接：<br>EVI 行政与教学平台<br><a href=\"https://admin.evischool.com.cn\" target=\"_blank\">admin.evischool.com.cn</a>",
+    "contact": {
+      "title": "联络我们",
+      "detail": {
+        "hk": "家长查询：(852) 2114 0333<br>学校查询：(852) 2187 3090<br>传真：(852) 2187 3094<br>办公时间：星期一至五9:00 – 18: 00<br>电邮地址：cs@evi.com.hk<br><br>EVI Services Limited<br>香港大角咀深旺道3号嘉运大厦北座11楼1101室",
+        "my": "家长查询：012-700 8362<br>办公时间：星期一至五 8:30am - 5:30pm<br>电邮地址：learningboxedu@gmail.com<br><br>EVI Services Limited / DMT NETWORKS SDN. BHD. (876422-P)<br>No. 2-2, Pusat Perdagangan One Puchong, Jalan OP 1/6 , Off Jalan Puchong, 47160 Puchong, Selangor Darul Ehsan. Malaysia",
+        "cn": "家长热线：(020) 3846 8591<br>传真：(020) 3846 8457<br>办公时间：星期一至五9:00 – 18: 00<br>邮箱：gzevi@evi.com.hk<br><br>广州益贝儿信息科技有限公司<br>广州天河区龙口东路129号龙泽商业大厦13A-02室"
+      }
+    },
+    "disclaimer": "<h1>免责声明</h1><p>EVI Services Limited / evi.com.hk<br>免责声明</p><p>此份公告(另有声明除外)，均适用于EVI Services Ltd. 。声明内所有'我们'及'本公司'等均泛指 EVI Services Ltd.有关公司。 </p><br><br>1.适用范围<br><br>此公告适用于: <br><br>(a)使用由EVI Services Ltd. 通过\" www.evigarten.com \"(\"EVIGarten网站\")所提供的任何服务（EVI服务）。 <br><br>(b)由EVI Services Ltd. 操作的任何相联服务器所储存或应收取的信息(统称为\"EVI服务器\")(\"该信息\")；和<br><br >(c)阁下通过该服务器所提供,取得或获得任何商品或服务(\"使用者\")。 <br><br>此公告免除 EVI Services Ltd. 和其附属公司、员工、代理人；承办商和其他信息提供的第三者(统称\"EVI\")。关于任何使用信息，商品和服务所引起的责任。 <br><br>2.版权 <br><br>该信息是受知识产权法律所保护(包括但不限于保护版权的法律)。如果未经该等权利所有人的同意下载、复制、传播、印刷、储存或其他方式使用该信息，使用者可能侵犯版权法。使用者的责任是自己决定有否触犯版权法。 <br><br>3.一般免责声明<br><br>EVI在法律容许下特此明示舍弃以下各种责任、陈述或担保： <br><br>(a)由EVI服务或该信息所带出有关质量、用途、使用、准确性、时限或适用性。 <br><br>(b)通过EVI服务器或依据该信息取得、提供或获得任何商品或服务。 <br><br>(c)服务器或该信息是否不会被中断或不会发生错误。该信息不能遏制任何病毒，或有污染性或有破坏性的特质。 <br><br>(d)该信息没有对使用者或其他人士引起不妥当或令人厌恶的后果。 <br><br>(e)该信息导致有错误、遗漏或失实陈述。 EVI Services Ltd. 没有赞同或推荐，该信息所提供的任何人士、机构、名称、产品或服务。该信息并不成为 EVI Services Ltd. 的观点或意见。除非以书面形式明示，否则EVI Services Ltd. 将不会成为在通过EVI服务器或该信息使用者和其他第三者进行任何交易中的立约人。 <br><br>4.责任的限制<br><br>在法律容许下， EVI Services Ltd. 将不会负责使用者或其他人士因侵权法、合约法、成文法或其他形式(包括但不限于因疏忽、违约、诽谤及侵犯知识产权) <br><br>(a)所引致的直接损失<br><br>(b)相应引起的或间接的损失(包括但不限于收入或利润上的损失) <br><br>(c)使用者容许，或引致其他人士，或经由该信息或EVI服务而引致其他人士的责任。 <br><br>在不局限前文的原则下，EVI Services Ltd. 将不会负责使用者，或其他人士，法定团体、非法组织或主管当局，因千禧年来临所引起直接或间接令到EVI服务或功能中断、延误，功能失常或不能执行的责任。 <br><br>5.保密条件 <br><br>EVI Services Ltd. 不会保证(亦不负责)经EVIGarten网站和EVI服务以私人或其他形式传播的机密性信息或数据。而EVI Services Ltd. 一贯的政策是采取合理步骤维持保密。 <br><br>(请不时参考 EVI Services Ltd. 关于个人资料的政策) <br><br>(请浏览现行版本)。 <br><br>6.使用者的责任<br><br>由于EVI Services Ltd. 容许使用者取用信息，包括EVIGarten网站、EVI服务器和EVI服务，而使用者同意： <br>< br>(a)不会进行或容许触犯版权； <br><br>(b)不会使用该信息，或使用者不可取用EVIGarten网站、EVI服务器和EVI服务作为非法、不妥当、不雅或诽谤的目的。 <br><br>(c)采取一切步骤确保该信息不会破坏使用者的信息或系统。 <br><br>(d) EVI Services Ltd. 进行研究取用该信息的调查。 <br><br>(e)此公告所提到关于 EVI Services Ltd. 的免责声明和责任限制，和关于 EVI Services Ltd. 现行个人资料的政策。 <br><br>7.法律和划分性 <br><br>此公告受香港法律管制，此公告的每一部份只可适用于容许范围内。若果任何司法管辖区禁止或不能强制执行此公告任何一部份的话，只代表禁止或不能强制执行的部份在该管辖区失效力。但不代表此公告的其他部份在其他司法管辖区失去效用，亦不代表会影响其禁止或不能强制执行的效力。虽然此免责声明以中文书写，但以英文版本为依据。若中英文版本有不同之处，以英文为准。 <br><br>安全声明 <br><br>此份声明(另有声明除外)内所有\"我们\"及\"本公司\"等均泛指 EVI Services Ltd. 内之有关公司。 <br><br>虽然互联网在本质上并不是一个安全的通讯环境，但透过运用适当的技术，可以增强其安全性，本公司做法便是一例。然而，互联网的安全并非单纯的技术问题。个人及交易数据安全防范之常识及惯常措施亦同样重要。 「黑客」入侵系统必须经过一道「门」，而这一道「门」，往往是由于在传递机密文件或者在处理密码、个人识别代码等机密数据过程中疏忽大意，而给黑客造成可乘之机。因此，用户必须万分小心地保护这些文件和数据。 <br><br>本公司对待安全问题十分审慎，严格保密从本公司网站用户获得的所有个人识别资料。除了采用防火墙和其他精密设备以外，本公司还提供及维护以下措施，来保护本公司的系统、资讯以及数据，使其免遭意外或恶意破坏。 <br><br>*采用安全标准 <br><br>本公司坚持采用国际标准，以确保交易完整及保护机密资料。此等标准与（i）商业活动及资讯保密惯例；（ii）交易完整性及（iii）资讯保护有关系。 <br><br>*获取个人识别资料之内部指引<br><br>本公司所有员工均遵循本公司的获取个人识别资讯之内部指引，制订该指引旨在限制个人资料的获取，只有具备正当需要的人员，方可获取此等资料。",
+    "privacy": "<h1>私隐条款</h1><p>私隐政策及个人资料收集声明<br><br>此份声明(另有声明除外)内所有「我们」及「本公司」等均泛指EVI Services Ltd.</p><h2>I. 私隐政策声明</h2><h3>我们的承诺</h3>本公司承诺妥善处理个人资料以保障客户的个人私隐。我们因而保证，在收集、使用、保留、传输及存取个人资料之各项政策和惯例，均符合香港法例第486章关于「个人资料(私隐)条例」之要求。 <br><br>所收集个人身份资料的类型<br>阁下可能被要求提供你的个人身份资料，包括但不限于你的姓名、性别、年龄、电话号码、电子邮件地址及住宅地址等。拒绝提供该等资料可能使你无法取用本网站的某些内容，或致使我们无法处理你提交的任何申请或请求，或者可能使你无法达到浏览之目的。如阁下尚未年满18岁，须征得父母或监护人同意后，方可向本公司提交任何个人身份资料。 <br><br>所收集个人身份资料的用途<br>有关阁下的个人身份资料可能被使用的具体目的已列载于以下第II部份的本公司的个人资料收集声明(特别是第II部份第三段的第(i)及第(vi)点)。 <br><br>资料保留<br>如阁下是付费用户，在服务有效期过后，我们将会保留阁下在服务期间透过互联网、表格或其他途径向本公司提交的个人身份资料一段合理时间。 <br><br>资料披露<br>一般情况下，我们不会你的资料披露给第三方。详情请参阅本公司以下第II部份的个人资料收集声明。 <br><br>存取及修正资料<br>如阁下希望存取及/或修正你透过互联网、表格或其他途径向本公司提交的个人身份资料，请以书面通知本公司的资料保护主任。每次成功完成存取后，本公司可能会向你收取当时的合理费用。然而，如果存取资料是为了真实而合理的修正而必须进行，该等费用将可获得豁免。 <br><br>保安<br>我们采用各种加密技术经互联网传输你的个人资料，该等资料只供我们授权的职员存取。基于互联网的性质，我们会尽力保证资料传输的安全性。 <br><br>个人身份资料的收集<br>阁下浏览本网站时，可能触发到曲奇的使用。曲奇是能够保存在网页使用者的电脑内，以获取配置资料及分析网页使用者的浏览习惯的小型档案。它们可使你再次浏览网站时不必重新注册，并通常用作追踪使用者在网站主题方面的倾向。阁下可以拒绝接受曲奇(透过修改有关互联网选项或你的电脑系统的浏览设置)，但这样做，阁下可能无法使用或启动本网站所提供的的某些功能，特此奉告。 <br><br>网上服务<br>我们可能会在本网站推出由第三者商户所经营的网上商店或服务供应商。如果你想使用或订购上述任何商户所提供的任何服务或商品，请注意，你所提交的任何资料，一旦被传输到有关商户，即无法被本公司所控制，因而不属于本公司所能给予的保护范围。 <br><br>查询<br>如阁下对我们的「私隐政策声明」有任何查询，请随时与本公司联络。其地址如下：<br>香港大角咀深旺道3号嘉运大厦北座11楼1101室<br><br>II. 个人资料收集声明<br>作为我们公司的用户或我们网站的访客或用户，当阁下向我们申请及/或继续使用一项服务及/或产品(下称「该服务」)时，阁下可能须向本公司提供阁下的个人资料(下称「个人资料」)。如果阁下的个人 资料不全或不正确，我们或许不能向阁下提供或继续提供该服务。 <br><br>我们在任何时候都会把阁下的个人资料保守机密。有关个人资料的收集、使用、保留、披露、转移 、保安和查阅，本公司的政策和惯常做法将与个人资料(私隐)条例(下称「条例」)和本声明中的规定一致。 <br><br>阁下并同意，阁下向本公司提供的阁下的任何个人资料，可因下述目的以及不时由双方同意的其他<br>目的或法律规定而由本公司使用或保留：< br>(i) 提供该服务，包括建立平台和App帐户、提供本公司资讯及学校通告等；<br>(ii) 处理由该服务所产生的或与之相关的任何你可享有的利益； <br>(iii) 分析、核实及/或查核与提供该服务有关的阁下之信用、付款及/或状况；<br>(iv) 对阁下要求的任何付款指示、直接支账付款设施及/或信用设施进行处理；<br>(v) 使阁下与该服务有关的账户能够进行日常运作及/或未清偿账款能够收回。 <br>(vi) 使我们能够履行我们的义务，以连接通讯双方，或遵守其他业内的惯常做法。 <br><br>根据条例规定，阁下有权：<br>(i)检查我们是否持有阁下的个人资料；<br>(ii)查阅由本公司保存的阁下的个人资料；<br>( iii)要求本公司更正个人资料中任何不正确的地方；<br>(iv)经常核查本公司与个人资料有关的政策和惯例以及确定由本公司所持有的个人资料类型。按照条例规定，在处理个人资料查询请求时，我们有权收取合理费用。所有查询或更正个人资料或 关于政策和执行惯例以及所持个人资料类别的请求，均应以书面形式提出并寄给本公司资料保护主任。 <br><br>请注意，本声明可能在未经通知的情况下不时修改。修改声明及修改的有效日期会在我们的网页刊登。修改没有追溯既往的能力。 <br><br>本条款如有未尽事宜，本公司将依个人资料收集声明、私隐政策或其他相关法规及其后修订之规定办理。 <br><br>更新日期：2019年08"
+  },
+  "articleInfo": {
+    "scoring": "投票及评分",
+    "title": "您觉得这篇文章吸引你吗？请评评分。",
+    "star": "评分：",
+    "vote": "投票：",
+    "vote1": "一般",
+    "vote2": "有共鸣",
+    "vote3": "精彩",
+    "vote4": "有趣",
+    "vote5": "实用",
+    "vote6": "会推介",
+    "questions": "考考你",
+    "answer": "(正确答案)",
+    "comment": "评论",
+    "btn": "提交"
+  },
+  "logout": "注销",
+  "next_step": "下一步",
+  "select_grade": "请选择年级/年级",
+  "pHome": {
+    "page": "pHome",
+    "title": {
+      "course": "亲子课程",
+      "parentChild": "亲子资讯",
+      "news": "最新消息",
+      "activity": "活动花絮"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+$black: #595959;
+$white: #ffffff;
+.warp {
+  position: relative;
+  .ab {
+    position: absolute;
+    z-index: 100;
+  }
+  .edit {
+    background: $black;
+    color: $white;
+    padding: 0.1rem;
+    width: 40px;
+    text-align: center;
+    right: 0;
+  }
+}

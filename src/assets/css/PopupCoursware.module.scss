@@ -1,0 +1,96 @@
+$white:#ffffff;
+$blue:#ebf3ff;
+$titleCB:#2b4b80; 
+
+
+:global {
+    .cousre-item-sortable {
+        z-index:1012;
+    }
+}
+
+.main {
+  background-color: $white;
+  .leftmain {
+    padding: 20px 20px 35px; 
+    .scroll_container{
+      height: 385px;
+      overflow-x: hidden;
+    }
+    .scroll_container::-webkit-scrollbar {
+      width: 6px;
+    }
+    /* 滚动槽 */
+    .scroll_container::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+    /* 滚动条滑块 */
+    .scroll_container::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    .item {
+      border:4px solid #00000060;
+      margin: 3px;
+      transition : all 0.5s;
+    }
+    .item.active {
+      border-color: #ff4d4f;
+      // outline: 5px solid #a4dbff';
+    }
+  }
+  .rigthmain {
+    padding: 0 15px;
+    height: 100%;
+    background-color: $blue;
+    position: relative;
+    h3{
+      margin: 0;
+      height: 35px;
+      line-height: 35px;
+      font-weight: bold;
+    }
+    h4{
+      margin: 0;
+      height: 28px;
+      line-height: 28px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 12px;
+    }
+    .btnwarp {
+      position:absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 1rem;
+      button{
+        color:$white;
+        background: #2b4b80;
+        border-color: #2b4b80;
+        margin: 0 10px;
+        font-size: 12px;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+.titleCB{
+  padding : 0 0.2rem;
+  color: $titleCB
+}
+.fontW {
+  text-align : center;
+  font-weight: 600
+}
+.details{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

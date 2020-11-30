@@ -1,0 +1,140 @@
+//用户抽屉样式
+:global {
+  .drawer_container {
+    .ant-drawer-content-wrapper {
+      // 关闭符
+      .anticon-close {
+        color: #fff;
+        margin-top: 20px;
+        svg {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      // 头部
+      .drawer_header {
+        .ant-card-body {
+          padding: 35px 20px 10px 35px;
+
+          .meta {
+            position: relative;
+            .avatar_container{
+              position: relative;
+              .ant-avatar {
+                border: 2px solid #fff;
+              }
+              .avatar_button {
+                cursor: pointer;
+                position: absolute;
+                display: none;
+                top: 0px;
+                left: 0px;
+                width: 100px;
+                height: 100px; 
+                font-size: 12px;
+                color: #fff;
+                background: rgba(0,0,0,.5);
+                border-radius: 50%;
+                text-align: center;
+                line-height: 100px;
+                border: 2px solid #fff;
+              }
+            }
+            .avatar_container:hover{
+              .avatar_button {
+                 display: block;
+              }
+            }
+
+            .ant-card-meta-title {
+              font-size: 20px;
+              color: #fff;
+            }
+
+            .ant-card-meta-description {
+              color: #fff;
+              font-size: 12px;
+            }
+          }
+
+          .ant-btn-primary {
+            background-color: #ffcc00;
+            border-color: #ffcc00;
+          }
+
+          .log_out {
+            float: right;
+            border: none;
+            margin-top: 10px;
+
+            span {
+              // font-size: 12px;
+              transform: scale(0.9);
+            }
+
+            i {
+              margin: 0;
+              transform: scale(0.9);
+            }
+          }
+          .SlickModal {
+            padding: 0 7px;
+            border-radius: 63px;
+            height: 30px;
+            position: absolute;
+            top: 50%;
+            left: 30%;
+          }
+        }
+      }
+      //成就
+      .drawer_achieve,
+      .drawer_weekchart {
+        text-align: center;
+        .ant-card-head{
+          img{
+            max-width: 100%;
+          }
+        }
+        .ant-card-body {
+          padding: 0 30px 24px;
+          p {
+            margin: 0;
+            height: 40px;
+            color: #79bebb;
+            border-bottom: 1px solid #f1f1f1;
+            cursor: pointer;
+            img{
+              padding-right: 7px;
+            }
+          }
+        }
+      }
+    }
+    .linkwarp {
+      padding: 10px;
+      .main {
+        display: flex;
+      }
+      .item {
+        width: 2em;
+        height: 2em;
+        margin:0 .1em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 24%;
+      }
+    }
+  }
+  // .ant-carousel .slick-slide {
+  //   text-align: center;
+  //   height: 160px;
+  //   line-height: 160px;
+  //   background: #364d79;
+  //   overflow: hidden;
+  // }
+
+  // .ant-carousel .slick-slide h3 {
+  //   color: #fff;
+  // }
+}

@@ -1,0 +1,62 @@
+//學生管理
+:global {
+  .table-operations {
+    .ant-form-inline {
+      margin: 5px 0 15px;
+    }
+  }
+  .studentEdit {
+    .ant-table-body , .ant-table-body-outer {
+      .bg{
+        background: #edf7ff;        
+      }
+      .bg2{
+        background: #cfe7ff;        
+      }
+      .ant-table-thead {
+        tr {
+          th {
+            padding: 0;
+            width: 105px;
+            text-align: center;
+            color: #82c4fb; 
+            background: #edf7ff;   
+            border-right: 5px solid #fff;
+            border-bottom: 5px solid #fff;
+          }
+        }
+      }
+      .ant-table-tbody {
+        tr {
+          td {
+            padding: 0;
+            text-align: center;
+            border-right: 5px solid #fff;
+            border-bottom: 5px solid #fff;
+            .ant-btn {
+              width: 100%;
+              background: #004e83;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .preview{
+    width: 100%;
+    min-height: 300px;
+    // overflow: auto;
+    margin-bottom: 10px;
+    img, video, audio, h2{
+      width: 100%;
+    }
+    .documentPage > canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+  .icon{
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,45 @@
+//成就组件样式
+
+:global{
+  //成就页面
+  .achievePage{
+    background: #fff;
+    padding: 0 13px 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 20px;
+    h3{
+      font-weight: bold;
+      color: #1db2a3;
+      i{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+    }
+    img{
+      height: 90px;
+    }
+    span{
+      display: block;
+      font-size: 12px;
+      line-height: 30px;
+    }
+  }
+  //抽屉页面
+  .drawerPage{
+    margin-bottom: 8px;
+    h3{
+      font-size: 12px;
+    }
+    img{
+      width: auto;
+      height: 53px;
+    }
+    span{
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+:global{
+  .history_container{
+    .main_container{
+      background: url(../image/bg.png);
+      background-size: 100%;
+      .infinite_container{
+        height: 1400px;
+        overflow: auto;
+        .list_container{
+          padding: 35px 0;
+          border-radius: 0 0 20px 20px;
+          .item_container{
+            margin-bottom: 20px;
+          }
+          .item_container:hover{
+            outline: 2px solid #f2f2f2;
+            cursor: pointer;
+          }
+          .close{
+            position: absolute;
+            top: 3px;
+            right: 5px;
+            cursor: pointer;
+          }
+          .close:hover{
+            color: red;
+          }
+        }
+      }
+      .infinite_container::-webkit-scrollbar {
+        width: 6px;
+      }
+      /* 滚动槽 */
+      .infinite_container::-webkit-scrollbar-track {
+        border-radius: 10px;
+      }
+      /* 滚动条滑块 */
+      .infinite_container::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}

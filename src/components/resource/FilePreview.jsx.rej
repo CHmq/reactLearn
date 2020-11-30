@@ -1,0 +1,31 @@
+diff a/src/components/resource/FilePreview.jsx b/src/components/resource/FilePreview.jsx	(rejected hunks)
+@@ -80,19 +80,25 @@
+     this.props.callback();
+   }
+ 
++  onRefresh = () => {
++    this.setState({refresh: new Date()})
++  }
++
+   render() {
+-    const { commentData } = this.state;
+-    const { file, translations, display, id, showComment, commentType } = this.props;
++    const { commentData, refresh } = this.state;
++    const { file, translations, display, id, showComment, commentType, fileDownload } = this.props;
++    const { refreshButton } = this.props;
++
+     return (
+       <>
+-        <div onClick={this.showModal} style={{ display, cursor: 'pointer' }}>
++        <div key={refresh} onClick={this.showModal} style={{ display, cursor: 'pointer' }}>
+           {this.props.children}
+         </div>
+         <Modal
+         width={showComment ? 900 : 600}
+         bodyStyle={{ backgroundColor: "#fff" }}
+         visible={this.state.visible}
+-        onCancel={()=>this.setState({visible: false})}
++        onCancel={this.onCancel}
+         footer={null}
+         maskClosable={false}
+         style={{textAlign: 'center'}}
